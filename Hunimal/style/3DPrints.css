@@ -1,0 +1,15 @@
+#main {
+    min-width: 800px;
+}
+
+#gcode-div > div {
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	margin: 5px;
+	border: 1px solid #44a;
+}
+
+#gcode-div > div > span {
+	font-size: 24px;
+}

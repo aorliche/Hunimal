@@ -1,0 +1,68 @@
+#main {
+    padding-bottom: 20px;
+}
+
+#error-p {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#score-p {
+    text-align: center;
+}
+
+#control-p {
+    text-align: center;
+}
+
+#left-div {
+    width: 280px;
+    margin-right: 25px;
+    float: left;
+}
+
+#left-div li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#right-div {
+    width: 805px;
+    float: left;
+    min-height: 405px;
+}
+
+#canvas {
+    border: 1px solid black;
+}
+
+#solved-message-div {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    z-index: 1;
+    width: 180px;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+}
+
+#target-div {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    font-size: 20px;
+}
+
+#working-div {
+    position: absolute;
+    top: 10px;
+    left: 540px;
+    width: 200px;
+    font-size: 20px;
+}

@@ -1,0 +1,90 @@
+
+ul#features li {
+	padding-bottom: 2px;
+}
+
+ul#features li b {
+	text-decoration: underline;
+	color: #44a;
+}
+
+ul.pigcoin-links {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul.pigcoin-links li.wealth-li {
+	padding: 5px;
+	background-color: #44a;
+	color: white;
+    border: 1px solid #44a;
+}
+
+ul.pigcoin-links li.wealth-li span.wealth-span {
+	padding: 5px;
+	font-weight: bold;
+	padding: 2px;
+}
+
+ul.pigcoin-links li {
+    display: inline-block;
+}
+
+ul.pigcoin-links li a {
+    border: 1px solid #44a;
+	padding: 5px;
+    text-decoration: none;
+    color: #44a;
+    display: inline-block;
+}
+
+ul.pigcoin-links li a:hover {
+	color: white;
+	background-color: #44a;
+}
+
+table {
+	border-collapse: collapse;
+	width: 90%;
+}
+
+td, th {
+	padding: 5px;
+	border: 1px solid #44a;
+	max-width: 350px;
+}
+
+.pub-key-column {
+	max-width: 400px;
+	word-wrap: break-word;
+}
+
+.pub-key-column span {
+	font-family: Courier;
+}
+
+form {
+	display: inline-block;
+	margin-bottom: 10px;
+	border: 1px solid #44a;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+label {
+	width: 80px;
+	display: inline-block;
+}
+
+input[type="submit"] {
+	margin: 5px;
+}
+
+#sort-desc-a, #sort-asc-a, 
+#sort-desc-reg-amount-a, #sort-asc-reg-amount-a,
+#sort-desc-reg-ts-a, #sort-asc-reg-ts-a,
+#sort-desc-gen-amount-a, #sort-asc-gen-amount-a,
+#sort-desc-gen-ts-a, #sort-asc-gen-ts-a {
+	text-decoration: none;
+}

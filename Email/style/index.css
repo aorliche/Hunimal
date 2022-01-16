@@ -1,0 +1,16 @@
+label {
+	min-width: 140px;
+	display: inline-block;
+}
+
+#email-info-p {
+	padding: 5px;
+}
+
+.email-error {
+	background-color: #faa;
+}
+
+.email-info {
+	background-color: #afa;
+}

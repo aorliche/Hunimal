@@ -1,0 +1,35 @@
+#js-contact-error-p, .contact-err-p, .contact-info-p {
+	padding: 5px;
+}
+
+#js-contact-error-p  {
+	background-color: #faa;
+	display: none;
+}
+
+.contact-err-p  {
+	background-color: #faa;
+}
+
+.contact-info-p {
+	background-color: #afa;
+}
+
+label {
+	display: inline-block;
+	width: 80px;
+}
+
+textarea {
+	width: 400px;
+	height: 80px;
+}
+
+label, input[type='submit'], textarea {
+	margin-top: 5px;
+}
+
+label[for='message'] {
+	top: -68px;
+	position: relative;
+}

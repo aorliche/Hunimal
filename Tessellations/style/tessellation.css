@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 25, 2019, 12:48:29 PM
+    Author     : aorlichenko
+*/
+#main {
+    min-width: 1200px;
+    overflow: hidden;
+}
+#canvas {
+    float: left;
+    border: 1px solid black;
+    margin-left: 10px;
+    background-color: #fff;
+}
+#right {
+    float: left;
+    min-width: 250px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.action-group {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+#saved-tessellations-table a{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}

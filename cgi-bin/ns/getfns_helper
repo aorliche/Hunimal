@@ -1,0 +1,9 @@
+#! /usr/local/bin/php
+
+<? 
+	$fns = array(
+		"https://hunimal.org/cgi-bin/fn/"
+	);
+	$json = json_encode($fns);
+	echo($json);
+?>

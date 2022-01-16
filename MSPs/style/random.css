@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 7, 2018, 1:42:42 PM
+    Author     : david.hughes
+*/
+
+#canvas {
+    border: 1px solid black;
+    float: left;
+}
+#right-of-canvas {
+    float: left;
+    margin-left: 10px;
+    width: 400px;
+    height: 800px;
+    overflow: auto;
+}
+#main {
+    min-width: 1225px;
+    overflow: hidden;
+}
+.action-group {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+#saved-states-table a, #saved-stroke-table a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+#rotation-range {
+    width: 250px;
+}
+
+#typing-area-div{
+    text-align: center;
+    background-color: #bbb;
+    display: none;
+}
+
+#typing-area {
+    width: 400px;
+    height: 100px;
+}
+
+.a-never-visited:visited {
+    color: blue;
+}

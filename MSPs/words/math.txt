@@ -1,0 +1,16 @@
+Sohcahtoa
+sin
+cosine
+tangent
+rhombus
+zonogon
+msp
+equilateral
+tessellation
+rectilinear
+grid
+integrate
+derivative
+limit
+set
+infinite

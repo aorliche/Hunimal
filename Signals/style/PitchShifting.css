@@ -1,0 +1,23 @@
+#info-p {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+#top-container-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#top-container-div td {
+    vertical-align: top;
+}
+
+#sound-file-stats-div {
+    margin-left: 20px;
+    width: 250px;
+}

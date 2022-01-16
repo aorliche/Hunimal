@@ -1,0 +1,219 @@
+@font-face {
+	font-family: "HunimalSansv1.5";
+	src: url('/Hunimal/Font/font/HunimalSansv1.5.ttf');
+}
+
+.hunimal-font {
+	font-family: "HunimalSansv1.5";
+}
+
+body {
+    font-family: Sans;
+    padding: 0px;
+    margin: 0px;
+    min-width: 800px;
+    background: url(/image/background.png);
+    background-repeat: no-repeat;
+}
+
+del {
+	/*text-decoration: none;*/
+	opacity: 0.5;
+}
+
+p {
+	line-height: 110%;
+}
+
+h1, h2, h3, h4 {
+    color: #44a;
+}
+
+body > h1 {
+	margin: 12px 20px 0px 300px;
+	padding: 12px 20px 12px 20px;
+    background-color: #f4f4ff;
+	border: 1px solid #44a;
+	box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+#menu {
+    position: absolute;
+    z-index: 2;
+    top: 72px;
+    left: 20px;
+}
+
+#menu a {
+    font-size: 20px;
+    background-color: #f4f4ff;
+    color: #44a;
+    border: 1px solid #44a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+    display: inline-block;
+	text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #f22;
+    color: #fff;
+    cursor: pointer;
+}
+
+.email-store {
+    position: absolute;
+    z-index: 3;
+    top: 18px;
+    left: 20px;
+}
+
+a#email, a#store {
+	padding: 5px 15px 5px 15px;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #f4f4ff;
+	color: #44a;
+	border: 1px solid #44a;
+}
+
+a#email[data-new]:hover, a#store[data-new]:hover {
+	background-color: #44f;
+	color: #fff;
+}
+
+a#store {
+	margin-left: 5px;
+}
+
+a[data-new] img {
+	margin-left: 5px;
+    height: 10px;
+    width: auto;
+}
+
+#main {
+    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #f4f4ff;
+    border: 1px solid #44a;
+    flex-grow: 1;
+}
+
+#navbar {
+    list-style: none;
+    margin: 20px 0px 0px 20px;
+    padding: 0px;
+    background-color: #f4f4ff;
+    font-size: 18px;
+    width: 260px;
+    min-width: 260px;
+}
+
+#navbar ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#navbar li {
+    width: 100%;
+    display: block;
+}
+
+#navbar a {
+    border: 1px solid #44a;
+    border-top: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: #44a;
+    display: block;
+}
+
+#navbar > li:first-child a {
+    border-top: 1px solid #44a;
+}
+
+#navbar li a:hover {
+	background-color: #44a;
+    color: #fff;
+}
+
+#navbar > li > a {
+    padding-left: 30px;
+}
+
+#navbar ul li a {
+    padding-left: 60px;
+}
+
+#navbar a img {
+    height: 14px;
+    width: auto;
+    margin-left: 5px;
+}
+
+#navbar a[data-new] img {
+    height: 10px;
+    width: auto;
+}
+
+#footer {
+    clear: both;
+    font-size: 12px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    clear: both;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #ddf;
+    color: #000;
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+    border-style: dotted;
+    
+    position: absolute;
+    z-index: 1;
+    left: 105%;
+    top: 10px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#navbar .tooltiptext {
+    width: 400px;
+    font-size: 14px;
+}
+
+a.js {
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}

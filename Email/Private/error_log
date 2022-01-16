@@ -1,0 +1,16 @@
+[09-Sep-2021 12:32:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home3/calmprepared/public_html/Email/Private/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home3/calmprepared/public_html/Email/Private/index.php on line 32
+[09-Sep-2021 13:22:55 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home3/calmprepared/public_html/Email/Private/index.php:63
+Stack trace:
+#0 {main}
+  thrown in /home3/calmprepared/public_html/Email/Private/index.php on line 63
+[09-Sep-2021 13:24:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home3/calmprepared/public_html/Email/Private/index.php:63
+Stack trace:
+#0 {main}
+  thrown in /home3/calmprepared/public_html/Email/Private/index.php on line 63
+[09-Sep-2021 13:25:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home3/calmprepared/public_html/Email/Private/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /home3/calmprepared/public_html/Email/Private/index.php on line 64

@@ -1,0 +1,45 @@
+#main {
+    min-width: 800px;
+    overflow: hidden;
+}
+
+#word-list-div {
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding-bottom: 10px;
+}
+
+#word-list-div h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#word-list-div > ul > li {
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+#num-found-span {
+    margin-left: 20px;
+}
+
+.checkbox-div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#word-search-canvas {
+    border: 1px solid black;
+    float: left;
+    margin-right: 20px;
+}
+
+#msp-canvas {
+    display: none;
+}

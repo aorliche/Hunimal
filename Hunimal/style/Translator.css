@@ -1,0 +1,106 @@
+#main {
+    min-width: 800px;
+    overflow: hidden;
+}
+
+#from-to-container {
+    display: inline-flex;
+    flex-wrap: nowrap;
+	width: 900px;
+}
+
+.from-to-box {
+    text-align: center;
+    border: 1px dotted #44a;
+    margin-right: 20px;
+}
+
+#question-div, #answer-div {
+    width: 360px;
+    height: 60px;
+    padding: 60px 20px 60px 20px;
+    margin: 20px;
+    border: 4px dashed #44a;
+    font-size: 40px;
+}
+
+#answer-div > input[type=text] {
+    font-size: 36px;
+    width: 200px;
+    text-align: center;
+}
+
+#answer-div > p {
+    height: 0px;
+    overflow: visible;
+    font-size: 14px;
+}
+
+.options-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#feedback-container {
+    width: 0px;
+    height: 0px;
+    position: relative;
+}
+
+#feedback-correct, #feedback-incorrect {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 325px;
+	width: 250px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
+    color: red;
+	border: 1px solid blue;
+	background-color: #fcc;
+	padding: 10px;
+}
+
+#feedback-correct a, #feedback-incorrect a {
+	color: blue;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#feedback-correct a:hover, #feedback-incorrect a:hover {
+	cursor: pointer;
+}
+
+#hunimal-list-table, #cienimal-list-table, #sotimal-list-table {
+	display: none;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+#hunimal-list-table td, #cienimal-list-table td, #sotimal-list-table td {
+    border: 1px solid #44a;
+	padding: 5px;
+	color: white;
+}
+
+#reload-div {
+	width: 900px;
+	text-align: center;
+}
+
+#reload-div a {
+    font-size: 24px;
+	color: blue;
+	text-decoration: underline;
+}
+
+#reload-div a:hover {
+	cursor: pointer;
+}
+
+check-button {
+	margin: -1px -1px 0px 0px;
+}

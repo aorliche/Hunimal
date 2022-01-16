@@ -1,0 +1,7 @@
+#! /usr/local/bin/python
+
+import cgi
+
+#print('Content-type: application/json; encoding=utf-8')
+print('hello')
+
