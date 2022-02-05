@@ -21,13 +21,13 @@
 				<div>Your opponent: <span id="oppoName"></span></div>
 				<canvas style='float: left;' id='durak-canvas' width=700px height=500px></canvas>
 				<div style='width: 200px; float: right;'>
-					<input type='checkbox' checked id='viewHandsCB'>
+					<input type='checkbox' id='viewHandsCB'>
 					View Opponent's Hand<br>
-					<input type='checkbox' checked id='viewGridCB'>
+					<input type='checkbox' id='viewGridCB'>
 					View Grid<br>
 					<input type='checkbox' id='viewDeckCB'>
 					View Deck<br>
-					<input type='checkbox' checked id='controlOpponentsCB'>
+					<input type='checkbox' id='controlOpponentsCB'>
 					Control Opponents<br>
 					<button onclick='newGame(2,36);' id='resetButton'>New Game</button><br>
 					<textarea readonly id='log' rows='10' cols='30'></textarea>

@@ -352,6 +352,8 @@ window.addEventListener("load", e => {
 				lastDiscard = null;
                 for (let i=0; i<uicards.length; i++) 
                     uicards[i].discarded = false;
+				if (!controlOpp.checked) 
+					oppo.postMessage(new Event('activate', !controlOpp.checked));
                 break;
             }
             case 'Error': {
