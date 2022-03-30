@@ -331,8 +331,6 @@ window.addEventListener("load", e => {
 		e = e.data;
 		if (e.type == 'Action') {
 			worker.postMessage(e);
-		} else if (e.type == 'Error') {
-			console.log(strErr(e));
 		} else {
 			console.log(e);
 		}

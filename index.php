@@ -17,6 +17,8 @@
             system that I invented.</p>
             <p>Click the links on the left to check out each of these topics!</p>
 			<big><? include 'latest-post.php'; ?></big>
+			<p><strong>February 26, 2022:</strong></p>
+			<p><a style='font-size: 20px;' href='/Hunimal/Brochure/Contest.php'>Hunimaker Brochure contest!</a> Click this to go to the contest</p>
 			<p><strong>September 6, 2021:</strong></p>
 			<p><a style="font-size: 20px;" href="/Email/">You can now get @hunimal.org email accounts!</a></p>
 			<p><strong>March 16, 2021:</strong></p>

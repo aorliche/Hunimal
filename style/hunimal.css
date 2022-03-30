@@ -85,7 +85,7 @@ a#email, a#store {
 	border: 1px solid #44a;
 }
 
-a#email[data-new]:hover, a#store[data-new]:hover {
+.email-store a#email:hover, .email-store a#store:hover {
 	background-color: #44f;
 	color: #fff;
 }

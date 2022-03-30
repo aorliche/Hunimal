@@ -1,0 +1,32 @@
+
+.custom-select-color select, .custom-select-color label {
+  	display: none; /*hide original SELECT element: */
+}
+
+/* style the items (options), including the selected item: */
+.select-items div, .select-selected {
+  	padding: 10px 12px;
+  	cursor: pointer;
+	width: inherit;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+
+/* Style items (options): */
+.select-items {
+	background-color: white;
+	position: absolute;
+  	width: inherit;
+	max-height: 300px;
+	overflow-y: scroll;
+	z-index: 101;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  	display: none;
+}
+
+.select-items div:hover {
+	filter: opacity(60%);
+}

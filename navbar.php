@@ -24,6 +24,10 @@
     <li><a href="/Hunimal/">Hunimal</a></li>
     <li>
         <ul>
+			<li class='tooltip'>
+				<a href='/Hunimal/Brochure/Contest.php' data-new>Brochure Contest</a>
+				<span class='tooltiptext'>Create a brochure for Hunimal to win big money!</span>
+			</li>
             <li class="tooltip">
                 <a href="/Hunimal/Translator.php">Translator Game</a>
                 <span class="tooltiptext">Test your knowledge of Hunimal by converting between

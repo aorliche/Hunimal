@@ -1,6 +1,6 @@
-<? set_include_path('/home3/calmprepared/public_html/'); ?>
-<? require_once('store-cart-cookies.php');?>
-<?
+<?// set_include_path('/home3/calmprepared/public_html/'); ?>
+<?// require_once('store-cart-cookies.php');?>
+<?/*
 	if ($_POST['digit-idx'] || $_POST['digit-idx'] === '0') {
 		array_splice($cart_digits, intval($_POST['digit-idx']), 1);
 		setcookie('cart-digits', implode(',', $cart_digits));
@@ -8,7 +8,7 @@
 	if ($_POST['set-idx'] || $_POST['set-idx'] === '0') {
 		array_splice($cart_sets, intval($_POST['set-idx']), 1);
 		setcookie('cart-sets', implode(',', $cart_sets));
-	}
+	}*/
 ?>
 <!DOCTYPE html>
 <html>
@@ -24,8 +24,8 @@
     <div id="container">
         <? include('navbar.php'); ?>
         <div id="main">
-			<? include('store-menu.php'); ?>
-<?
+		<? include('store-menu.php'); ?>
+<?/*
 	if ($_GET['error']) {
 		echo "<p style='background-color: #f88; padding: 5px'>".urldecode($_GET['error'])."</p>";
 	}
@@ -51,14 +51,14 @@
 			}
 			echo implode(', ', $prettyDigits) . ".";
 		}
-	}
+	}*/
 ?>
 			<h2>Cart</h2>
 <?
-	if (count($cart_sets) == 0 and count($cart_digits) == 0) {
+	/*if (count($cart_sets) == 0 and count($cart_digits) == 0) {
 		echo "<p>No items in cart</p>";
 		goto endCart;
-	}
+	}*/
 ?>
 <!--<script src="https://www.paypal.com/sdk/js?client-id=AWOXfOdOjjkiPJdD5bB3V23y6ScER9nyFW-9I8jQUn-I1dqr5VCFkvimAOU4VAcVrNdhWhjDaNLgmitZ&currency=USD"></script>-->
 <script src="https://www.paypal.com/sdk/js?client-id=Ac2kKDmIdhxeMckOR7-ZQxNbLkvPcNfQK_59t6QYF6Nvv55OxL7DQoZClegXHYRKJB8ceO6vjr7yUYds&currency=USD"></script>

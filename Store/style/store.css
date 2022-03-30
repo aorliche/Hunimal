@@ -94,11 +94,6 @@
 	/*color: #888;*/
 }
 
-form#digit-form label, form#set-form label {
-	display: inline-block;
-	width: 50px;
-}
-
 #print-content {
 	min-width: 600px;
 }
@@ -125,4 +120,8 @@ form#digit-form label, form#set-form label {
 .error {
 	color: red;
 	font-weight: bold;
+}
+
+.selected-item, .select-items {
+	z-index: 10;
 }

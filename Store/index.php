@@ -15,7 +15,6 @@
         <div id="main">
 			<? include('store-menu.php'); ?>
 			<h2>Welcome to the hunimal store!</h2>
-			<h3>Available items (2)</h3>
 			<div id='store-items' style='min-width: 700px;'>
 				<div class='item' data-available>
 					<div class='item-data'>
