@@ -42,7 +42,7 @@
 
 	// Validate recaptcha
 	$sitekey = '6Lfas6IeAAAAAF2xcFZqf2cPBU2lQBB5GQAoTS2o';
-	$secretkey = '6Lfas6IeAAAAABwITN4t6yyg0TQnAWngMROlo9gl';
+	$secretkey = '';
 	$token = $_GET['token'];
 	$remote = $_SERVER['REMOTE_ADDR'];
 
