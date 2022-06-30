@@ -1,4 +1,4 @@
-let canSend = false;
+/*let canSend = false;
 
 function unlock() {
 	canSend = true;
@@ -17,4 +17,8 @@ window.addEventListener('load', e => {
 			errP.style.display = 'block';
 		}
 	}, true);
-}, false);
+}, false);*/
+
+function onSubmit(token) {
+	document.querySelector('#contact-form').submit();
+}
