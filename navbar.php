@@ -1,8 +1,12 @@
 <ul id="navbar">
     <li><a href="/">Home</a></li>
     <li><a href="/Blog/">Blog</a></li>
+    <li class='tooltip'>
+        <a href='/SpaceMatch/' data-new>Space Match</a>
+        <span class='tooltiptext'>Space-themed matching game</span>
+    </li>
 	<li class="tooltip">
-		<a href="/AI/Durak.php" data-new>Durak</a>
+		<a href="/AI/Durak.php">Durak</a>
 		<span class="tooltiptext">Play cards against a computer opponent</span>
 	</li>
 	<li class="tooltip">
@@ -25,7 +29,7 @@
     <li>
         <ul>
 			<li class='tooltip'>
-				<a href='/Hunimal/Brochure/Contest.php' data-new>Brochure Contest</a>
+				<a href='/Hunimal/Brochure/Contest.php'>Brochure Contest</a>
 				<span class='tooltiptext'>Create a brochure for Hunimal to win big money!</span>
 			</li>
             <li class="tooltip">
