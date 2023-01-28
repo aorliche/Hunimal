@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Buy Hunimal Prints</title>
+<link href='Prints.css' rel='stylesheet'>
+</head>
+<body>
+
+<form id='set-form' action='Prints.php' method='post'>
+    <p>You can buy an entire set for $<span class='hunimal-font'>&#x5550;.&#x5500;</span>
+    (50 USD, shipping included).</p>
+    <div class='custom-select-color' tyle='width: 200px; display: inline-block;'>
+        <label for='color'>Select Color:</label>
+        <select name='color' id='color' form='set-form'>
+            <option value='Purple'>Purple</option>
+            <option value='Yellow'>Yellow</option>
+            <option value='Orange'>Orange</option>
+            <option value='Green'>Green</option>
+            <option value='Blue'>Blue</option>
+            <option value='Pink'>Pink</option>
+            <option value='Red'>Red</option>
+        </select>
+    </div>
+    <input type='hidden' name='action' value='buy-set'>
+    <input type='submit' value='Order Set'>
+</form>
+
+<script src='Prints.js'></script>
+</body>
+</html>

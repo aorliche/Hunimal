@@ -75,7 +75,7 @@
 					<p>Total cost: $<span id='costSpan' class='hunimal-font'></span></p>
 					<div id="paypal-button-container"></div>
 				</div>
-<script>
+<!--<script>
 paypal.Buttons({
 	createOrder: function(data, actions) {
 		return actions.order.create({
@@ -134,7 +134,7 @@ paypal.Buttons({
 		});
 	}
 }).render('#paypal-button-container');
-</script>
+</script>-->
 			</div>
         </div>
     </div>

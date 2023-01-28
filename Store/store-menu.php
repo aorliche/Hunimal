@@ -1,6 +1,6 @@
 <? //require_once('store-cart-cookies.php'); ?>
 <div id='store-menu'>
-	<h2 style='color: red;'>We only have 1 set of Hunimal prints in stock. Any additional purchases will have to be refunded.</h2>
+	<h2 style='color: red;'>We are sold out of Hunimals! More merch coming sometime.</h2>
 </div>
 	<!--
 	<div id='menu-cart'>
