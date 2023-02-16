@@ -43,7 +43,7 @@ window.addEventListener('load', e => {
     function dec2BigHun(n) {
         let num = null;
         for (let ion=0; ion<3; ion++) {
-            const m = Math.round(n / Math.pow(100,ion)) % 100;
+            const m = Math.floor(n / Math.pow(100,ion)) % 100;
             if (ion == 0) {
                 num = hunNum2Words[m];
             } else if (m != 0) {
