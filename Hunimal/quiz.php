@@ -40,14 +40,24 @@ window.addEventListener('load', e => {
 		$('#q-div').querySelector('.q-correct').innerText = `  (${(100*qright/(qnum-1)).toFixed(0)}%)`;
 	}
 
+    function twoPartHun(m2, m1) {
+        let num = hunNum2Words[m1];
+        if (m2 != 0) {
+            num = `${hunNum2Words[m2]} ${num}`;
+        }
+        return num;
+    }
+
     function dec2BigHun(n) {
         let num = null;
         for (let ion=0; ion<3; ion++) {
-            const m = Math.floor(n / Math.pow(100,ion)) % 100;
+            const m = Math.floor(n / Math.pow(10000,ion));
+            const m1 = m % 100;
+            const m2 = Math.floor(n / 100) % 100;
             if (ion == 0) {
-                num = hunNum2Words[m];
+                num = twoPartHun(m2, m1);
             } else if (m != 0) {
-                num = `${hunNum2Words[m]} ${hunNum2Words[ion]}-ion ${num}`;
+                num = `${twoPartHun(m2, m1)} ${hunNum2Words[ion]}-ion ${num}`;
             }
         }
         return num;
