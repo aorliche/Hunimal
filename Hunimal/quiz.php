@@ -47,7 +47,7 @@ window.addEventListener('load', e => {
             if (ion == 0) {
                 num = hunNum2Words[m];
             } else if (m != 0) {
-                num = `${hunNum2Words[m]}-ion ${num}`;
+                num = `${hunNum2Words[m]} ${hun2NumWords[ion]}-ion ${num}`;
             }
         }
         return num;
