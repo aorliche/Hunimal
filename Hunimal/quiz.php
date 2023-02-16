@@ -53,7 +53,7 @@ window.addEventListener('load', e => {
         for (let ion=0; ion<3; ion++) {
             const m = Math.floor(n / Math.pow(10000,ion));
             const m1 = m % 100;
-            const m2 = Math.floor(n / 100) % 100;
+            const m2 = Math.floor(m / 100) % 100;
             if (ion == 0) {
                 num = twoPartHun(m2, m1);
             } else if (m != 0) {
