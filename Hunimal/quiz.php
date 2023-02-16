@@ -40,12 +40,26 @@ window.addEventListener('load', e => {
 		$('#q-div').querySelector('.q-correct').innerText = `  (${(100*qright/(qnum-1)).toFixed(0)}%)`;
 	}
 
+    function dec2BigHun(n) {
+        let num = null;
+        for (let ion=0; ion<3; ion++) {
+            const m = Math.round(n / Math.pow(100,ion)) % 100;
+            if (ion == 0) {
+                num = hunNum2Words[m];
+            } else if (m != 0) {
+                num = `${hunNum2Words[m]}-ion ${num}`;
+            }
+        }
+        return num;
+    }
+
 	function buildQuestion() {
 		$('#q-div').innerHTML = '';
 		let q = null;
 		let ans = null;
+        const rand = Math.random();  
 		// hun2dec
-		if (Math.random() > 0.5) {   
+		if (rand > 0.7) {   
 			const n = randint(100,[]);
 			q = `What is ${hunNum2Words[n]} in decimal?`;
 			ans = [n];
@@ -53,7 +67,7 @@ window.addEventListener('load', e => {
 				ans.push(randint(100, ans));
 			}
 		// dec2hun
-		} else {
+		} else if (rand > 0.3) {
 			const n = randint(100,[]);
 			q = `What is ${n} in hunimal?`;
 			ans = [n];
@@ -61,7 +75,24 @@ window.addEventListener('load', e => {
 				ans.push(randint(100, ans));
 			}
 			ans = ans.map(n => hunNum2Words[n]);
-		}
+        // oneion hun2dec
+		} else if (Math.random() > 0.15) {
+			const n = randint(1000000,[]);
+            q = `What is ${dec2BigHun(n)} in decimal?`;
+			ans = [n];
+			for (let i=0; i<4; i++) {
+				ans.push(randint(1000000, ans));
+			}
+        // oneion dec2hun
+        } else {
+			const n = randint(1000000,[]);
+			q = `What is ${n} in hunimal?`;
+			ans = [n];
+			for (let i=0; i<4; i++) {
+				ans.push(randint(1000000, ans));
+			}
+			ans = ans.map(n => dec2BigHun(n));
+        }
 		const idcs = shuffle(5);
 		const opts = idcs.map(i => ans[i]);	
 		//const corrIdx = idcs.indexOf(0);
