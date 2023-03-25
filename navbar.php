@@ -9,6 +9,10 @@
         <a href='/Chess/' data-new>Chess</a>
         <span class='tooltiptext'>Play chess against a weak computer (Stockfish depth 5)</span>
     </li>
+    <li class='tooltip'>
+        <a href='/TheDragoVerse/' data-new>The DragoVerse</a>
+        <span class='tooltiptext'>A fantasy world of persistent AI agents</span>
+    </li>
 	<li class="tooltip">
 		<a href="/AI/Durak.php">Durak</a>
 		<span class="tooltiptext">Play cards against a computer opponent</span>
