@@ -18,9 +18,10 @@
 		<span class="tooltiptext">Play cards against a computer opponent</span>
 	</li>
 	<li class="tooltip">
-		<a href="/Pigcoin/">New American Dollar</a>
+		<a href="/Pigcoin/">Pigcoin Crypto</a>
 		<span class="tooltiptext">A new cryptocurrency idea from the creators of Hunimal</span>
 	</li>
+	<!--
 	<li>
 		<ul>
 			<li class="tooltip">
@@ -33,6 +34,7 @@
 			</li>
 		</ul>
 	</li>
+	-->
     <li><a href="/Hunimal/">Hunimal</a></li>
     <li>
         <ul>
@@ -71,6 +73,14 @@
     </li>
     <li>
         <ul>
+            <li class="tooltip">
+                <a href="/Poetry/" data-new>MSP Poetry</a>
+                <span class="tooltiptext">Figure out the poem hidden in the MSP.</span>
+            </li>
+            <li class="tooltip">
+                <a href="/MSP/Graph.php" data-new>MSP Graphs</a>
+                <span class="tooltiptext">Look at the transitions of MSP flips.</span>
+            </li>
             <li class="tooltip">
                 <a href="/MSPs/JumPin.php">JumPin Game</a>
                 <span class="tooltiptext">Try to remove all but one of the pins. Classic game
