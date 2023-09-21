@@ -2,7 +2,7 @@
     <li><a href="/">Home</a></li>
     <li><a href="/Blog/">Blog</a></li>
     <li class='tooltip'>
-        <a href='/SpaceMatch/' data-new>Space Match</a>
+        <a href='/SpaceMatch/'>Space Match</a>
         <span class='tooltiptext'>Space-themed matching game</span>
     </li>
     <li class='tooltip'>
@@ -10,7 +10,7 @@
         <span class='tooltiptext'>Play chess against a weak computer (Stockfish depth 5)</span>
     </li>
     <li class='tooltip'>
-        <a href='/TheDragoVerse/' data-new>The DragoVerse</a>
+        <a href='/TheDragoVerse/'>The DragoVerse</a>
         <span class='tooltiptext'>A fantasy world of persistent AI agents</span>
     </li>
 	<li class="tooltip">
@@ -20,6 +20,10 @@
 	<li class="tooltip">
 		<a href="/Pigcoin/">Pigcoin Crypto</a>
 		<span class="tooltiptext">A new cryptocurrency idea from the creators of Hunimal</span>
+	</li>
+	<li class="tooltip">
+		<a href="/knot-mosaic/" data-new>Knot Mosaics</a>
+		<span class="tooltiptext">Program for generating semi-random knot mosaics up to 5 crossings</span>
 	</li>
 	<!--
 	<li>
@@ -39,7 +43,7 @@
     <li>
         <ul>
 			<li class='tooltip'>
-				<a href='/Hunimal/quiz.php' data-new>Quiz</a>
+				<a href='/Hunimal/quiz.php'>Quiz</a>
 				<span class='tooltiptext'>Test your knowledge of Hunimal</span>
 			</li>
 			<li class='tooltip'>
@@ -74,13 +78,21 @@
     <li>
         <ul>
             <li class="tooltip">
-                <a href="/Poetry/" data-new>MSP Poetry</a>
+                <a href="/Poetry/">MSP Poetry</a>
                 <span class="tooltiptext">Figure out the poem hidden in the MSP.</span>
             </li>
             <li class="tooltip">
-                <a href="/MSP/Graph.php" data-new>MSP Graphs</a>
+                <a href="/MSP/Graph.php">MSP Graphs</a>
                 <span class="tooltiptext">Look at the transitions of MSP flips.</span>
             </li>
+			<li class="tooltip">
+				<a href="/MSP/Publish2.php" data-new>MSP Publishing</a>
+				<span class="tooltiptext">Create animated MSP messages and share with others.</span>
+			</li>
+			<li class="tooltip">
+				<a href="/MSP/PublishPages2.php" data-new>MSP Books</a>
+				<span class="tooltiptext">Create and view MSP books</span>
+			</li>
             <li class="tooltip">
                 <a href="/MSPs/JumPin.php">JumPin Game</a>
                 <span class="tooltiptext">Try to remove all but one of the pins. Classic game
