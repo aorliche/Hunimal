@@ -9,6 +9,10 @@
         <a href='/Chess/' data-new>Chess</a>
         <span class='tooltiptext'>Play chess against a weak computer (Stockfish depth 5)</span>
     </li>
+	<li class="tooltip">
+		<a href="http://45.56.117.175:8001/go.html" data-new>Go</a>
+		<span class="tooltiptext">Two people can play Go on a non-rectangular board (need separate browser windows)</span>
+	</li>
     <li class='tooltip'>
         <a href='/TheDragoVerse/'>The DragoVerse</a>
         <span class='tooltiptext'>A fantasy world of persistent AI agents</span>
