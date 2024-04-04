@@ -207,17 +207,18 @@
 end: 
 	if ($_POST['action']) {
 		if (isset($error)) {
-			echo "<p id='email-info-p' class='email-error'>$error</p>";
+			echo "<p id='email-info-p' class='email-error'>" . htmlspecialchars($error) ."</p>";
 		} else if (isset($info)) {
-			echo "<p id='email-info-p' class='email-info'>$info</p>";
+			echo "<p id='email-info-p' class='email-info'>" . htmlspecialchars($info) ."</p>";
 		} else {
 			echo "<p id='email-info-p' class='email-info'>No message</p>";
 		}
 	}
 ?>
 			<div class='g-recaptcha' data-sitekey='6LeGMlccAAAAAKlt6fzXtA6HYoy4OSUCQalRuxZm' data-callback='unlock'></div>
+            <p>Please stop trying to hack the site through the email forms. I doubt you will hurt anyone except the environment.</p>
 			<h2>Request Email</h2>
-			<p>Fill out the form below to request a @hunimal.org email account.</p>
+			<p>Fill out the form below to request an @hunimal.org email account.</p>
 			<form action="." method="post">
 				<label for="email">Email:</label>
 					<input type="text" name="email" value="<? echo $email; ?>"><br>
@@ -232,7 +233,6 @@ end:
 					<p><strong>Javascript is required to use this form.</strong></p>
 				</noscript>
 				<div id='submit-request-div'></div>
-				<!--<input type="submit" value="Request"><br>-->
 			</form>
 			<h2>Reset Email</h2>
 			<p>Reset the password on your @hunimal.org email account.</p>
@@ -250,7 +250,6 @@ end:
 					<p><strong>Javascript is required to use this form.</strong></p>
 				</noscript>
 				<div id='submit-reset-div'></div>
-				<!--<input type="submit" value="Reset"><br>-->
 			</form>
 			<h2>Delete Email</h2>
 			<p>Delete (eek!) your @hunimal.org email account.</p>
@@ -266,7 +265,6 @@ end:
 					<p><strong>Javascript is required to use this form.</strong></p>
 				</noscript>
 				<div id='submit-delete-div'></div>
-				<!--<input type="submit" value="Delete"><br>-->
 			</form>
         </div>
     </div>

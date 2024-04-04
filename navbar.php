@@ -13,6 +13,10 @@
 		<a href="http://45.56.117.175:8001/go.html" data-new>Go</a>
 		<span class="tooltiptext">Two people can play Go on a non-rectangular board (need separate browser windows)</span>
 	</li>
+	<li class="tooltip">
+		<a href="http://45.56.117.175:8003/othello.html" data-new>Reversi (Othello)</a>
+		<span class="tooltiptext">Two people can play reversi on a non-rectangular board (need separate browser windows) - work in progress</span>
+	</li>
     <li class='tooltip'>
         <a href='/TheDragoVerse/'>The DragoVerse</a>
         <span class='tooltiptext'>A fantasy world of persistent AI agents</span>
