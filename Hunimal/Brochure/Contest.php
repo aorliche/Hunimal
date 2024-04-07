@@ -119,11 +119,12 @@ function drawTop5() {
 				<li>it mentions <a href='/'>Hunimal.org</a> in some way.</li>
 			</ul>
 			Anyone can enter anything but to win prizes you must satisfy these criteria.</p>
+            <p><b style='color: red;'>The end date of the contest will be midnight Saturday May 4. Winners will be contacted for payouts (probably PayPal) then. Thanks to everyone for participating!</b></style>
 			<p>Prizes:
 			<ul>
-				<li>First place: $500</li>
-				<li>Second place: $250</li>
-				<li>Third place: $100</li>
+				<li>First place: <strike>$500</strike> $20</li>
+				<li>Second place: <strike>$250</strike> $10</li>
+				<li>Third place: <strike>$100</strike> $5</li>
 			</ul>
 			</p>
 			<p>Winners will be determined by community vote.</p>
