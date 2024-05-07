@@ -112,6 +112,7 @@ function drawTop5() {
         <? include('navbar.php'); ?>
         <div id="main">
 			<h2>Hunimal brochures!</h2>
+			<p><b style='color: red;'>The contest is over! Congratulations to bish bosh, officebaconfarts, and studsstudio (made up of the top 3 entries trying to cheat the contest). You will be receiving communications about your $20, $10, and $5 winnings shortly from David.</b></p>
 			<p>I am running a contest for a brochure advertising the Hunimal number system. I've been asked to put up a display about Hunimal in my local library; the thought is that patrons can take a brochure home with them.</p>
 			<p>The requirements are that
 			<ul>
