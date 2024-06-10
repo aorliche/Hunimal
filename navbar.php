@@ -6,15 +6,19 @@
         <span class='tooltiptext'>Space-themed matching game</span>
     </li>
     <li class='tooltip'>
-        <a href='/Chess/' data-new>Chess</a>
+        <a href='/DragoGauntlet/' data-new>Drago Gauntlet</a>
+        <span class='tooltiptext'>A rogue-like procedurally generated game</span>
+    </li>
+    <li class='tooltip'>
+        <a href='/Chess/'>Chess</a>
         <span class='tooltiptext'>Play chess against a weak computer (Stockfish depth 5)</span>
     </li>
 	<li class="tooltip">
-		<a href="http://45.56.117.175:8001/go.html" data-new>Go</a>
+		<a href="http://45.56.117.175:8001/go.html">Go</a>
 		<span class="tooltiptext">Two people can play Go on a non-rectangular board (need separate browser windows)</span>
 	</li>
 	<li class="tooltip">
-		<a href="http://45.56.117.175:8003/othello.html" data-new>Reversi (Othello)</a>
+		<a href="http://45.56.117.175:8003/othello.html">Reversi (Othello)</a>
 		<span class="tooltiptext">Two people can play reversi on a non-rectangular board (need separate browser windows) - work in progress</span>
 	</li>
     <li class='tooltip'>
@@ -30,7 +34,7 @@
 		<span class="tooltiptext">A new cryptocurrency idea from the creators of Hunimal</span>
 	</li>
 	<li class="tooltip">
-		<a href="/knot-mosaic/" data-new>Knot Mosaics</a>
+		<a href="/knot-mosaic/" data>Knot Mosaics</a>
 		<span class="tooltiptext">Program for generating semi-random knot mosaics up to 5 crossings</span>
 	</li>
 	<!--
@@ -94,11 +98,11 @@
                 <span class="tooltiptext">Look at the transitions of MSP flips.</span>
             </li>
 			<li class="tooltip">
-				<a href="/MSP/Publish2.php" data-new>MSP Publishing</a>
+				<a href="/MSP/Publish2.php" data>MSP Publishing</a>
 				<span class="tooltiptext">Create animated MSP messages and share with others.</span>
 			</li>
 			<li class="tooltip">
-				<a href="/MSP/PublishPages2.php" data-new>MSP Books</a>
+				<a href="/MSP/PublishPages2.php">MSP Books</a>
 				<span class="tooltiptext">Create and view MSP books</span>
 			</li>
             <li class="tooltip">
