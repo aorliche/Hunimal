@@ -59,6 +59,10 @@
 				<span class='tooltiptext'>Test your knowledge of Hunimal</span>
 			</li>
 			<li class='tooltip'>
+				<a href='/Hunimal/quiz2.php' data-new>Quiz with Mult</a>
+				<span class='tooltiptext'>Test your knowledge of Hunimal, now with multiplication!</span>
+			</li>
+			<li class='tooltip'>
 				<a href='/Hunimal/Brochure/Contest.php'>Brochure Contest</a>
 				<span class='tooltiptext'>Create a brochure for Hunimal to win big money!</span>
 			</li>
