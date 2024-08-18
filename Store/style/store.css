@@ -44,16 +44,16 @@
 	cursor: pointer;
 }
 
-.item[data-coming-soon]:hover {
+.item[data-coming-soon]:hover, .item[data-sold-out]:hover {
 	background-color: #fcc;
 }
 
-.item[data-coming-soon] .item-data {
+.item[data-coming-soon] .item-data, .item[data-sold-out] .item-data {
 	opacity: 50%;
 	height: 300px;
 }
 
-.item[data-coming-soon] .coming-soon {
+.item[data-coming-soon] .coming-soon, .item[data-sold-out] .sold-out {
 	width: 100%;
 	color: #f22;
 	font-weight: bold;
@@ -77,10 +77,10 @@
 
 .title a {
 	text-decoration: none;
+    color: white;
 }
 
 .title a:visited {
-	color: white;
 }
 
 .price {

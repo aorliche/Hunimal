@@ -1,7 +1,7 @@
 <? //require_once('store-cart-cookies.php'); ?>
-<div id='store-menu'>
+<!--<div id='store-menu'>
 	<h2 style='color: red;'>We are sold out of Hunimals! More merch coming sometime.</h2>
-</div>
+</div>-->
 	<!--
 	<div id='menu-cart'>
 <?/*

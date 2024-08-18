@@ -1,0 +1,14 @@
+#designs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.design {
+    text-align: center;
+    width: 320px;
+    margin-right: 10px;
+}
+
+.design p {
+    text-align: left;
+}
