@@ -23,7 +23,7 @@
                             <a href='Shirts.php' style='color: white;'>Hunimal Shirts</a>
                         </div>
                         <div class='price'>
-                            Price: $<span class='hunimal-font'>&#x5530;.&#x5500;</span> per Shirt
+                            Price: $<span class='hunimal-font'>&#x5535;.&#x5500;</span> per Shirt
                         </div>
                         <div class='desc'>
                             Custom hunimal shirts with several designs. Available in any S,M,L,XL sizes.
