@@ -15,7 +15,7 @@
         <div id="main">
 			<? include('store-menu.php'); ?>
 			<script src="https://www.paypal.com/sdk/js?client-id=Ac2kKDmIdhxeMckOR7-ZQxNbLkvPcNfQK_59t6QYF6Nvv55OxL7DQoZClegXHYRKJB8ceO6vjr7yUYds&currency=USD"></script>
-            <p><u>Expect one week for shipping. We only ship to the United States.</u></p>
+            <p><u>Expect one to two weeks for shipping. We only ship to the United States.</u></p>
             <div id='designs'>
                 <div class='design'>
                     <h3>Design 1: Pig and Gator Friendship</h3>
@@ -45,6 +45,7 @@
                     <option>M</option>
                     <option>L</option>
                     <option>XL</option>
+                    <option>XXL</option>
                 </select>
                 Sex:
                 <select id='sex'>
@@ -76,7 +77,7 @@ function cartJson(orderData) {
     }
     const cart = [];
     const shirt = {size: 'S', sex: 'Male', design: '1'};
-    shirt.size = ['S', 'M', 'L', 'XL'][$('#size').selectedIndex];
+    shirt.size = ['S', 'M', 'L', 'XL', 'XXL'][$('#size').selectedIndex];
     shirt.sex = ['Male', 'Female'][$('#sex').selectedIndex];
     shirt.design = ['1', '2', '3', '4'][$('#design').selectedIndex];
     cart.push(JSON.stringify(shirt));
