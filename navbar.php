@@ -26,7 +26,7 @@
         <span class='tooltiptext'>A fantasy world of persistent AI agents</span>
     </li>
 	<li class="tooltip">
-		<a href="/AI/Durak.php">Durak</a>
+		<a href="http://45.56.117.175:8000/durak.html">Durak</a>
 		<span class="tooltiptext">Play cards against a computer opponent</span>
 	</li>
 	<li class="tooltip">
