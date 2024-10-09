@@ -63,6 +63,10 @@
 				<span class='tooltiptext'>Test your knowledge of Hunimal, now with multiplication!</span>
 			</li>
 			<li class='tooltip'>
+				<a href='/Hunimal/factorial.php' data-new>Factorials</a>
+				<span class='tooltiptext'>Factorials in Hunimal.</span>
+			</li>
+			<li class='tooltip'>
 				<a href='/Hunimal/Brochure/Contest.php'>Brochure Contest</a>
 				<span class='tooltiptext'>Create a brochure for Hunimal to win big money!</span>
 			</li>
