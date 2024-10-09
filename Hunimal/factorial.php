@@ -35,7 +35,7 @@ function dec2BigHun(n) {
         if (ion == 0) {
             num = twoPartHun(m2, m1);
         } else if (m != 0) {
-            num = `${twoPartHun(m2, m1)} ${hunNum2Words[ion]}-ion ${num}`;
+            num = `${twoPartHun(m2, m1)} ${hunNum2Words[ion]}-ion, ${num}`;
         }
     }
     return num;
