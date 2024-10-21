@@ -21,11 +21,15 @@
 			<table id="hunimal-list-table"></table>
 			<table id="cienimal-list-table"></table>
 			<table id="sotimal-list-table"></table>
+            <table id="dertimal-list-table"></table>
+            <table id="korimal-list-table"></table>
 			<div id='reload-div'>
 				<a style="color: red;" onclick="reload();">New Word</a>
 				<a id="hunimal-list-a" style='font-size: 14px;'>View Hunimals</a>
 				<a id="cienimal-list-a" style='font-size: 14px;'>View Cienimals</a>
 				<a id="sotimal-list-a" style='font-size: 14px;'>View Sotimals</a>
+				<a id="dertimal-list-a" style='font-size: 14px;'>View Dertimals</a>
+				<a id="korimal-list-a" style='font-size: 14px;'>View Korimals</a>
 			</div>
             <div id="from-to-container">
                     <div id="feedback-container">

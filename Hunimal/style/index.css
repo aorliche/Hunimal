@@ -3,12 +3,12 @@
     overflow: hidden;
 }
 
-#hunimal-list-table {
+#hunimal-list-table, .huntab {
 	border-collapse: collapse;
 	margin: 0 auto;
 }
 
-#hunimal-list-table td {
+#hunimal-list-table td, .huntab td {
     border: 1px solid #44a;
 	padding: 5px;
 	color: white;

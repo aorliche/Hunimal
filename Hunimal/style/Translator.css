@@ -74,13 +74,13 @@
 	cursor: pointer;
 }
 
-#hunimal-list-table, #cienimal-list-table, #sotimal-list-table {
+#hunimal-list-table, #cienimal-list-table, #sotimal-list-table, #dertimal-list-table, #korimal-list-table {
 	display: none;
 	border-collapse: collapse;
 	margin: 0 auto;
 }
 
-#hunimal-list-table td, #cienimal-list-table td, #sotimal-list-table td {
+#hunimal-list-table td, #cienimal-list-table td, #sotimal-list-table td, #dertimal-list-table td, #korimal-list-table td {
     border: 1px solid #44a;
 	padding: 5px;
 	color: white;

@@ -83,6 +83,7 @@ window.addEventListener("load", e => {
     let hunNum2Words = null;
 	let cienNum2Words = null;
 	let sotNum2Words = null;
+	let dertNum2Words = null;
     
     function hideFeedback() {
         correctDiv.style.display = 'none';
@@ -228,6 +229,8 @@ window.addEventListener("load", e => {
 	const cienimalListTable = document.querySelector("#cienimal-list-table");
 	const sotimalListButton = document.querySelector("#sotimal-list-a");
 	const sotimalListTable = document.querySelector("#sotimal-list-table");
+	const dertimalListButton = document.querySelector("#dertimal-list-a");
+	const dertimalListTable = document.querySelector("#dertimal-list-table");
 	
 	function viewHide(button, table, name) {
 		if (button.innerText === "View " + name) {
@@ -249,6 +252,10 @@ window.addEventListener("load", e => {
 	
 	sotimalListButton.addEventListener("click", e => {
 		viewHide(sotimalListButton, sotimalListTable, "Sotimals");
+	}, false);
+    
+	dertimalListButton.addEventListener("click", e => {
+		viewHide(dertimalListButton, dertimalListTable, "Dertimals");
 	}, false);
 
 	function buildTable(table, dict) {
@@ -292,6 +299,9 @@ window.addEventListener("load", e => {
         await fetch("words/decimal.txt")
             .then(res => res.text())
             .then(data => decNum2Words = data.split('\r\n'));
+        await fetch("words/Dertimal.txt")
+            .then(res => res.text())
+            .then(data => dertNum2Words = data.split('\n'));
 
 		const color1 = "#6d9eeb";
 		const color2 = "#6aa84f";
@@ -299,6 +309,7 @@ window.addEventListener("load", e => {
 		buildTable(hunimalListTable, hunNum2Words);
 		buildTable(cienimalListTable, cienNum2Words);
 		buildTable(sotimalListTable, sotNum2Words);
+		buildTable(dertimalListTable, dertNum2Words);
             
         reload();
     }
