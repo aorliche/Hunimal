@@ -6,7 +6,7 @@
         <span class='tooltiptext'>Space-themed matching game</span>
     </li>
     <li class='tooltip'>
-        <a href='/DragoGauntlet/' data-new>Drago Gauntlet</a>
+        <a href='/DragoGauntlet/'>Drago Gauntlet</a>
         <span class='tooltiptext'>A rogue-like procedurally generated game</span>
     </li>
     <li class='tooltip'>
@@ -19,7 +19,11 @@
 	</li>
 	<li class="tooltip">
 		<a href="http://45.56.117.175:8003/othello.html">Reversi (Othello)</a>
-		<span class="tooltiptext">Two people can play reversi on a non-rectangular board (need separate browser windows) - work in progress</span>
+		<span class="tooltiptext">Two people can play reversi on a non-rectangular board (need separate browser windows)</span>
+	</li>
+	<li class="tooltip">
+		<a href="http://45.56.117.175:8004/spades.html" data-new>Spades</a>
+		<span class="tooltiptext">Play spades against an AI</span>
 	</li>
     <li class='tooltip'>
         <a href='/TheDragoVerse/'>The DragoVerse</a>
