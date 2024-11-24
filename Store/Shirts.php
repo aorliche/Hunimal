@@ -60,7 +60,7 @@
                     <option>Design 4</option>
                 </select>
             </p>
-            <!--<div id="paypal-button-container"></div>-->
+            <div id="paypal-button-container"></div>
 <script>
 const $ = (q) => document.querySelector(q);
 const $$ = (q) => [...document.querySelectorAll(q)];
