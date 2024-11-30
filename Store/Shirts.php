@@ -37,6 +37,11 @@
                     <a href='image/Design4.png'><img src='image/Design4.png' width='300px' alt='Design4'></a>
                     <p>Black version of design 1.</p>
                 </div>
+                <div class='design'>
+                    <h3>Design 5: Colorful Hunimal</h3>
+                    <a href='image/Design5.png'><img src='image/Design5.png' width='300px' alt='Design5'></a>
+                    <p>A cool colorful shirt with a single hunimal number, <span class='hunimal-font'>&#x5500</span> to <span class='hunimal-font'>&#x5599</span>.</p>
+                </div>
             </div>
             <p>Cost: $<span class='hunimal-font'>&#x5535;</span> (35 USD)<p>
             <p>Size: 
@@ -58,6 +63,11 @@
                     <option>Design 2</option>
                     <option>Design 3</option>
                     <option>Design 4</option>
+                    <option>Design 5</option>
+                </select>
+                Zo to Hun Shirts (Design 5) Only:
+                <select class='hunimal-font' id='hunimal-number'>
+                    <option class='hunimal-font' value='None'>None</option>
                 </select>
             </p>
             <div id="paypal-button-container"></div>
@@ -65,6 +75,16 @@
 const $ = (q) => document.querySelector(q);
 const $$ = (q) => [...document.querySelectorAll(q)];
 let key = null;
+
+window.addEventListener('load', e => {
+    const select = $('#hunimal-number');
+    for (let i=0; i<100; i++) {
+        const opt = document.createElement('option');
+        opt.value = i;
+        opt.innerText = i + " " + String.fromCharCode(0x5500+Math.floor(i/10)*16+i%10);
+        select.appendChild(opt);
+    }
+});
 	
 function randomKey() {
     return (Math.random() + 1).toString(36).substring(7);
@@ -76,10 +96,11 @@ function cartJson(orderData) {
         orderData = null; // not 'undefined'
     }
     const cart = [];
-    const shirt = {size: 'S', sex: 'Male', design: '1'};
+    const shirt = {size: 'S', sex: 'Male', design: '1', hunimalNumber: 'None'};
     shirt.size = ['S', 'M', 'L', 'XL', 'XXL'][$('#size').selectedIndex];
     shirt.sex = ['Male', 'Female'][$('#sex').selectedIndex];
-    shirt.design = ['1', '2', '3', '4'][$('#design').selectedIndex];
+    shirt.design = ['1', '2', '3', '4', '5'][$('#design').selectedIndex];
+    shirt.hunimalNumber = $('#hunimal-number').options[$('#hunimal-number').selectedIndex].value;
     cart.push(JSON.stringify(shirt));
     return JSON.stringify({cart: cart, cost: 35, key: key, orderData: orderData});
 }
