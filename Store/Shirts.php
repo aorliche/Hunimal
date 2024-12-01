@@ -84,6 +84,10 @@ window.addEventListener('load', e => {
         opt.innerText = i + " " + String.fromCharCode(0x5500+Math.floor(i/10)*16+i%10);
         select.appendChild(opt);
     }
+    const opt = document.createElement('option');
+    opt.value = 100;
+    opt.innerText = 100 + " " + String.fromCharCode(0x5501) + String.fromCharCode(0x5500);
+    select.appendChild(opt);
 });
 	
 function randomKey() {
