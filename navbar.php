@@ -33,6 +33,10 @@
 		<a href="http://45.56.117.175:8000/durak.html">Durak</a>
 		<span class="tooltiptext">Play cards against a computer opponent</span>
 	</li>
+    <li class="tooltip">
+        <a href="/3DMSPs/pipeds.php" data-new>3D Engine</a>
+        <span class="tooltiptext">Mess around with pipeds in a custom 3D software rendering environment</span>
+    </li>
 	<li class="tooltip">
 		<a href="/Pigcoin/">Pigcoin Crypto</a>
 		<span class="tooltiptext">A new cryptocurrency idea from the creators of Hunimal</span>
