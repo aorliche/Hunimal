@@ -26,6 +26,12 @@
 						<div>
                             <p>Click the button after you click and create a blue vertex to expand the pipeds</p>
 							<button id='bGenFromV'>Generate from Outside Vertex</button>
+                            <br>
+                            <input type='checkbox' id='invisFaces' name='invisFaces'>
+                            <label for='invisFaces'>Transparent faces</label>
+                            <br>
+                            <input type='checkbox' id='changeFaceColor' name='changeFaceColor'>
+                            <label for='changeFaceColor'>Click changes face color</label>
 						</div>
 					</div>
 				</div>

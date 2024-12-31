@@ -24,7 +24,7 @@
             </p>
 			<p>Check out the table below for the hunimal numbers 00-99.</p>
 			<table id="hunimal-list-table"></table>
-            <h3 id='spanish'>Spanish (Cientimal)</h3>
+            <h3 id='spanish'>Spanish (Cienimal)</h3>
             <table id="hunimal-spanish" class='huntab'></table>
             <h3 id='russian'>Russian (Sotimal)</h3>
             <table id="hunimal-russian" class='huntab'></table>
