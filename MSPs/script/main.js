@@ -718,8 +718,15 @@ function recolorSelectedRhombi(doRandomColors) {
             rhombi[i].selectedForColoring = false;
         }
     }
-    if (doRandomColors) {
+    if (doRandomColors === true) {
         colorRhombi(rs);
+	} else if (doRandomColors === "stripes" || doRandomColors === "dots") {
+		createRandomPattern(doRandomColors, (pat) => {
+			colorRhombi(rs, pat, alpha, applyColor, applyAlpha)
+			for (var i=0; i<rs.length; i++) {
+				repaintRhombus(rs[i]);
+			}
+		});
     } else {
         colorRhombi(rs, color, alpha, applyColor, applyAlpha);
     }

@@ -31,6 +31,7 @@
         <script type="text/javascript" src="script/stroke.js"></script>
         <script type="text/javascript" src="script/util.js"></script>
         <script type="text/javascript" src="script/vertex.js"></script>
+        <script type="text/javascript" src="script/stripes.js"></script>
     </head>
     <body onload="onload()">
         <h1>Multi-Solution Puzzles</h1>
@@ -46,7 +47,8 @@
                 <p>
                 <a href="#" class="a-never-visited" onclick="displayTypingArea()">Display Typing Area</a> (For Tablets/Mobile)
                 </p>
-                <canvas id="canvas" width="800" height="800" tabindex="0"></canvas>
+				<canvas id="canvas" width="800" height="800" tabindex="0"></canvas>
+				<canvas id="stripesCanvas" width="800" height="800" style="display: none;"></canvas>
                 <div id="right-of-canvas">
                     <div>
                         X: <input id="x-coord-field" size="4">
@@ -111,7 +113,9 @@
                         Alpha: <input type="text" value="1.0" id="alpha-field" size="8"><br>
                         <input type="button" value="Recolor" onclick="recolorSelectedRhombi()">
                         <input type="button" value="Recolor (Random Colors)" onclick="recolorSelectedRhombi(true)">
-                        <input type="button" value="Select All" onclick="selectAllForRecoloring()"><br>
+						<input type="button" value="Recolor (Stripes)" onclick="recolorSelectedRhombi('stripes')">
+						<input type="button" value="Recolor (Dots)" onclick="recolorSelectedRhombi('dots')">
+						<input type="button" value="Select All" onclick="selectAllForRecoloring()"><br>
                         <input type="checkbox" id="display-numbers-checkbox"> Display Numbers<br>
                         <input type="checkbox" id="display-lines-checkbox"> Display Lines
                     </div>
