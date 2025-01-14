@@ -20,13 +20,14 @@
                     <div class='item-data'>
                         <img class='pic' src='image/Design3.png' height='96' alt='Hunimal Shirt Design'>
                         <div class='title'>
-                            <a href='Shirts.php' style='color: white;'>Hunimal Shirts</a>
+                            <a href='Shirts.php' style='color: white;'>Hunimal Shirts and Hats</a>
                         </div>
                         <div class='price'>
                             Price: $<span class='hunimal-font'>&#x5535;.&#x5500;</span> per Shirt
+                            Price: $<span class='hunimal-font'>&#x5542;.&#x5500;</span> per Hat
                         </div>
                         <div class='desc'>
-                            Custom hunimal shirts with several designs. Available in any S,M,L,XL sizes.
+                            Custom hunimal shirts and hats with several designs. Available in S,M,L,XL sizes.
                         </div>
                     </div>
                 </div>

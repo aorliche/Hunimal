@@ -42,8 +42,14 @@
                     <a href='image/Design5.png'><img src='image/Design5.png' width='300px' alt='Design5'></a>
                     <p>A cool colorful shirt with a single hunimal number, <span class='hunimal-font'>&#x5500</span> to <span class='hunimal-font'>&#x5599</span>.</p>
                 </div>
+                <div class='design'>
+                    <h3>Design 6: Colorful Hunimal Cap (Black)</h3>
+                    <a href='image/Design1_Hat.png'><img src='image/Design1_Hat.png' width='200px' alt='Design1_Hat'></a>
+                    <p>A black baseball cap with a single hunimal number, <span class='hunimal-font'>&#x5500</span> to <span class='hunimal-font'>&#x5599</span>.</p>
+                </div>
             </div>
-            <p>Cost: $<span class='hunimal-font'>&#x5535;</span> (35 USD)<p>
+            <p>Cost: <span id='shirt-cost'>$<span class='hunimal-font'>&#x5535;</span> (35 USD)</span>
+            <span id='hat-cost' style='display: none;'>$<span class='hunimal-font'>&#x5542;</span> (42 USD)</span><p>
             <p>Size: 
                 <select id='size'>
                     <option>S</option>
@@ -64,8 +70,9 @@
                     <option>Design 3</option>
                     <option>Design 4</option>
                     <option>Design 5</option>
+                    <option>Hat</option>
                 </select>
-                Zo to Hun Shirts (Design 5) Only:
+                Zo to Hun Shirts (Design 5 and Hats) Only:
                 <select class='hunimal-font' id='hunimal-number'>
                     <option class='hunimal-font' value='None'>None</option>
                 </select>
@@ -88,6 +95,15 @@ window.addEventListener('load', e => {
     opt.value = 100;
     opt.innerText = 100 + " " + String.fromCharCode(0x5501) + String.fromCharCode(0x5500);
     select.appendChild(opt);
+    $('#design').addEventListener('change', e => {
+        if ($('#design').selectedIndex == 5) {
+            $('#shirt-cost').style.display = 'none';
+            $('#hat-cost').style.display = 'inline';
+        } else {
+            $('#shirt-cost').style.display = 'inline';
+            $('#hat-cost').style.display = 'none';
+        }
+    });
 });
 	
 function randomKey() {
@@ -106,15 +122,17 @@ function cartJson(orderData) {
     shirt.design = ['1', '2', '3', '4', '5'][$('#design').selectedIndex];
     shirt.hunimalNumber = $('#hunimal-number').options[$('#hunimal-number').selectedIndex].value;
     cart.push(JSON.stringify(shirt));
-    return JSON.stringify({cart: cart, cost: 35, key: key, orderData: orderData});
+    const cost = $('#design').selectedIndex == 5 ? 42 : 35;
+    return JSON.stringify({cart: cart, cost: cost, key: key, orderData: orderData});
 }
 
 paypal.Buttons({
 	createOrder: function(data, actions) {
+        const cost = $('#design').selectedIndex == 5 ? 42 : 35;
 		return actions.order.create({
 			purchase_units: [{
 				amount: {
-					value: 35
+					value: cost
 				}
 			}]
 		});
