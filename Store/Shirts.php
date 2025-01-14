@@ -119,7 +119,7 @@ function cartJson(orderData) {
     const shirt = {size: 'S', sex: 'Male', design: '1', hunimalNumber: 'None'};
     shirt.size = ['S', 'M', 'L', 'XL', 'XXL'][$('#size').selectedIndex];
     shirt.sex = ['Male', 'Female'][$('#sex').selectedIndex];
-    shirt.design = ['1', '2', '3', '4', '5'][$('#design').selectedIndex];
+    shirt.design = ['1', '2', '3', '4', '5', 'hat'][$('#design').selectedIndex];
     shirt.hunimalNumber = $('#hunimal-number').options[$('#hunimal-number').selectedIndex].value;
     cart.push(JSON.stringify(shirt));
     const cost = $('#design').selectedIndex == 5 ? 42 : 35;
