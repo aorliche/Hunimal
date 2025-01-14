@@ -24,10 +24,10 @@
                         </div>
                         <div class='price'>
                             Price: $<span class='hunimal-font'>&#x5535;.&#x5500;</span> per Shirt
-                            Price: $<span class='hunimal-font'>&#x5542;.&#x5500;</span> per Hat
+                            <!--Price: $<span class='hunimal-font'>&#x5542;.&#x5500;</span> per Hat-->
                         </div>
                         <div class='desc'>
-                            Custom hunimal shirts and hats with several designs. Available in S,M,L,XL sizes.
+                            Custom hunimal shirts with several designs. Available in S,M,L,XL sizes.
                         </div>
                     </div>
                 </div>

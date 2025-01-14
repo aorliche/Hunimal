@@ -42,11 +42,11 @@
                     <a href='image/Design5.png'><img src='image/Design5.png' width='300px' alt='Design5'></a>
                     <p>A cool colorful shirt with a single hunimal number, <span class='hunimal-font'>&#x5500</span> to <span class='hunimal-font'>&#x5599</span>.</p>
                 </div>
-                <div class='design'>
+                <!--<div class='design'>
                     <h3>Design 6: Colorful Hunimal Cap (Black)</h3>
                     <a href='image/Design1_Hat.png'><img src='image/Design1_Hat.png' width='200px' alt='Design1_Hat'></a>
                     <p>A black baseball cap with a single hunimal number, <span class='hunimal-font'>&#x5500</span> to <span class='hunimal-font'>&#x5599</span>.</p>
-                </div>
+                </div>-->
             </div>
             <p>Cost: <span id='shirt-cost'>$<span class='hunimal-font'>&#x5535;</span> (35 USD)</span>
             <span id='hat-cost' style='display: none;'>$<span class='hunimal-font'>&#x5542;</span> (42 USD)</span><p>
@@ -70,9 +70,9 @@
                     <option>Design 3</option>
                     <option>Design 4</option>
                     <option>Design 5</option>
-                    <option>Hat</option>
+                    <!--<option>Hat</option>-->
                 </select>
-                Zo to Hun Shirts (Design 5 and Hats) Only:
+                Zo to Hun Shirts (Design 5 Only):
                 <select class='hunimal-font' id='hunimal-number'>
                     <option class='hunimal-font' value='None'>None</option>
                 </select>
