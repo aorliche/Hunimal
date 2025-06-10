@@ -55,9 +55,9 @@ function digitToHumber(d) {
         const tens = (d-ones)/10;
         return String.fromCharCode(0x5500 + 0x10*tens + ones);
     }
-    if (d < 126) {
+    /*if (d < 126) {
         return String.fromCharCode(0x61 + d - 100);
-    }
+    }*/
     const rem = d%100;
     return digitToHumber((d - rem)/100) + digitToHumber(rem); 
 }

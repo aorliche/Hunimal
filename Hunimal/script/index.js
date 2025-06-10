@@ -7,6 +7,62 @@ window.addEventListener("load", e => {
     const german = document.querySelector("#hunimal-german");
     const korean = document.querySelector("#hunimal-korean");
 
+    const alltables = [hunimalListTable, spanish, russian, german, korean];
+
+    const henglish = document.querySelector('#english');
+    const hspanish = document.querySelector('#spanish');
+    const hrussian = document.querySelector('#russian');
+    const hgerman = document.querySelector('#german');
+    const hkorean = document.querySelector('#korean');
+
+    const allh = [henglish, hspanish, hrussian, hgerman, hkorean];
+    
+    const aenglish = document.querySelector('#showenglish');
+    const aspanish = document.querySelector('#showspanish');
+    const arussian = document.querySelector('#showrussian');
+    const agerman = document.querySelector('#showgerman');
+    const akorean = document.querySelector('#showkorean');
+
+    function hideall() {
+        alltables.forEach(tab => {
+            tab.style.display = "none";
+        });
+        allh.forEach(h => {
+            h.style.display = "none";
+        });
+    }
+
+    function show(tab, h) {
+        tab.style.display = "table";
+        h.style.display = "block";
+    }
+
+    aenglish.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(hunimalListTable, henglish);
+    });
+    aspanish.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(spanish, hspanish);
+    });
+    arussian.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(russian, hrussian);
+    });
+    agerman.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(german, hgerman);
+    });
+    akorean.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(korean, hkorean);
+    });
+
     async function fetchWordsAndStart(hunimalListTable, file, sep) {
        
         await fetch(file)

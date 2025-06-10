@@ -91,6 +91,10 @@
 				<a href="/Hunimal/Font/index.php">Hunimal Font <span class="hunimal-font">&#x5500;-&#x5599;</span></a>
 				<span class="tooltiptext">Special glyphs for the Hunimal numbers!</span>
 			</li>
+			<li class="tooltip">
+				<a href="/Hunimal/SquareNumbers/index.php">Square Numbers</a>
+				<span class="tooltiptext">Patterns in square numbers in different bases.</span>
+			</li>
         </ul>
     </li>
     <li class="tooltip">
