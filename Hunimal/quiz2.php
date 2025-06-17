@@ -15,7 +15,7 @@
         <? include('navbar.php'); ?>
         <div id="main">
 			<p>How well do you know Hunimal? Try to answer all the questions correctly! <a href='scoreboard.php'>Scoreboard</a></p>
-			<iframe src='/hunimal-quiz/index.php' width=600 height=600></iframe>
+			<iframe src='/hunimal-quiz/index.php' width=800 height=600></iframe>
         </div>
     </div>
     <? include('footer.php'); ?>
