@@ -6,22 +6,25 @@ window.addEventListener("load", e => {
     const russian = document.querySelector("#hunimal-russian");
     const german = document.querySelector("#hunimal-german");
     const korean = document.querySelector("#hunimal-korean");
+    const swedish = document.querySelector('#hunimal-swedish');
 
-    const alltables = [hunimalListTable, spanish, russian, german, korean];
+    const alltables = [hunimalListTable, spanish, russian, german, korean, swedish];
 
     const henglish = document.querySelector('#english');
     const hspanish = document.querySelector('#spanish');
     const hrussian = document.querySelector('#russian');
     const hgerman = document.querySelector('#german');
     const hkorean = document.querySelector('#korean');
+    const hswedish = document.querySelector('#swedish');
 
-    const allh = [henglish, hspanish, hrussian, hgerman, hkorean];
+    const allh = [henglish, hspanish, hrussian, hgerman, hkorean, hswedish];
     
     const aenglish = document.querySelector('#showenglish');
     const aspanish = document.querySelector('#showspanish');
     const arussian = document.querySelector('#showrussian');
     const agerman = document.querySelector('#showgerman');
     const akorean = document.querySelector('#showkorean');
+    const aswedish = document.querySelector('#showswedish');
 
     function hideall() {
         alltables.forEach(tab => {
@@ -61,6 +64,11 @@ window.addEventListener("load", e => {
         e.preventDefault();
         hideall();
         show(korean, hkorean);
+    });
+    aswedish.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(swedish, hswedish);
     });
 
     async function fetchWordsAndStart(hunimalListTable, file, sep) {
@@ -108,5 +116,7 @@ window.addEventListener("load", e => {
 	fetchWordsAndStart(russian, "words/sotimal_cyrillic.txt", '\n');
 	fetchWordsAndStart(german, "words/Dertimal.txt", '\n');
 	fetchWordsAndStart(korean, "words/Korimal.txt", '\n');
+    fetchWordsAndStart(swedish, "words/swedish.txt", '\n');
+    
 
 }, false);

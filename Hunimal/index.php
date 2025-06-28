@@ -22,6 +22,7 @@
             <a id='showrussian' href='#russian'>Russian</a>
             <a id='showgerman' href='#german'>German</a>
             <a id='showkorean' href='#korean'>Korean</a>
+            <a id='showswedish' href='#swedish'>Swedish</a>
             </p>
 			<p>Check out the table below for the hunimal numbers 00-99.</p>
             <h3 id='english'>English (Hunimal)</h3>
@@ -34,6 +35,8 @@
             <table id="hunimal-german" class='huntab' style='display: none;'></table>
             <h3 id='korean' style='display: none;'>Korean (Baekimal)</h3>
             <table id="hunimal-korean" class='huntab' style='display: none;'></table>
+            <h3 id='swedish' style='display: none;'>Swedish</h3>
+            <table id='hunimal-swedish' class='huntab' style='display: none;'></table>
         </div>
     </div>
     <? include('footer.php'); ?>
