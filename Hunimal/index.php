@@ -35,7 +35,7 @@
             <table id="hunimal-german" class='huntab' style='display: none;'></table>
             <h3 id='korean' style='display: none;'>Korean (Baekimal)</h3>
             <table id="hunimal-korean" class='huntab' style='display: none;'></table>
-            <h3 id='swedish' style='display: none;'>Swedish</h3>
+            <h3 id='swedish' style='display: none;'>Swedish (Hundrimal)</h3>
             <table id='hunimal-swedish' class='huntab' style='display: none;'></table>
         </div>
     </div>
