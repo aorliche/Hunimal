@@ -13,6 +13,10 @@
         <a href='/Chess/'>Chess</a>
         <span class='tooltiptext'>Play chess against a weak computer (Stockfish depth 5)</span>
     </li>
+    <li class='tooltip'>
+        <a href='/ArithmeticGame/' data-new>Arithmetic Game</a>
+        <span class='tooltiptext'>See how well you can perform arithmetic in Hunimal!</span>
+    </li>
 	<li class="tooltip">
 		<a href="http://45.56.117.175:8001/go.html">Go</a>
 		<span class="tooltiptext">Two people can play Go on a non-rectangular board (need separate browser windows)</span>
