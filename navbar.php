@@ -41,10 +41,10 @@
         <a href="/3DMSPs/pipeds.php" data-new>3D Engine</a>
         <span class="tooltiptext">Mess around with pipeds in a custom 3D software rendering environment</span>
     </li>
-	<li class="tooltip">
+	<!--<li class="tooltip">
 		<a href="/Pigcoin/">Pigcoin Crypto</a>
 		<span class="tooltiptext">A new cryptocurrency idea from the creators of Hunimal</span>
-	</li>
+	</li>-->
 	<li class="tooltip">
 		<a href="/knot-mosaic/" data>Knot Mosaics</a>
 		<span class="tooltiptext">Program for generating semi-random knot mosaics up to 5 crossings</span>
