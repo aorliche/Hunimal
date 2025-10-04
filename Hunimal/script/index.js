@@ -2,24 +2,27 @@ window.addEventListener("load", e => {
 
 	let hunNum2Words = null;
 	const hunimalListTable = document.querySelector("#hunimal-list-table");
+    const ver2 = document.querySelector('#hunimal-ver2');
     const spanish = document.querySelector("#hunimal-spanish");
     const russian = document.querySelector("#hunimal-russian");
     const german = document.querySelector("#hunimal-german");
     const korean = document.querySelector("#hunimal-korean");
     const swedish = document.querySelector('#hunimal-swedish');
 
-    const alltables = [hunimalListTable, spanish, russian, german, korean, swedish];
+    const alltables = [hunimalListTable, ver2, spanish, russian, german, korean, swedish];
 
     const henglish = document.querySelector('#english');
+    const hver2 = document.querySelector('#ver2');
     const hspanish = document.querySelector('#spanish');
     const hrussian = document.querySelector('#russian');
     const hgerman = document.querySelector('#german');
     const hkorean = document.querySelector('#korean');
     const hswedish = document.querySelector('#swedish');
 
-    const allh = [henglish, hspanish, hrussian, hgerman, hkorean, hswedish];
+    const allh = [henglish, hver2, hspanish, hrussian, hgerman, hkorean, hswedish];
     
     const aenglish = document.querySelector('#showenglish');
+    const aver2 = document.querySelector('#showver2');
     const aspanish = document.querySelector('#showspanish');
     const arussian = document.querySelector('#showrussian');
     const agerman = document.querySelector('#showgerman');
@@ -44,6 +47,11 @@ window.addEventListener("load", e => {
         e.preventDefault();
         hideall();
         show(hunimalListTable, henglish);
+    });
+    aver2.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(ver2, hver2);
     });
     aspanish.addEventListener("click", e => {
         e.preventDefault();
@@ -112,6 +120,7 @@ window.addEventListener("load", e => {
     }
     
 	fetchWordsAndStart(hunimalListTable, "words/hun.txt", '\r\n');
+	fetchWordsAndStart(ver2, "words/hun2.txt", '\n');
 	fetchWordsAndStart(spanish, "words/cienimal.txt", '\r\n');
 	fetchWordsAndStart(russian, "words/sotimal_cyrillic.txt", '\n');
 	fetchWordsAndStart(german, "words/Dertimal.txt", '\n');

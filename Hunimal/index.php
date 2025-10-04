@@ -18,6 +18,7 @@
 			<h2>Hunimal Numbers!</h2>
             <p>
             <a id='showenglish' href='#english'>English</a>
+            <a id='showver2' href='#ver2'>English (V2)</a>
             <a id='showspanish' href='#spanish'>Spanish</a>
             <a id='showrussian' href='#russian'>Russian</a>
             <a id='showgerman' href='#german'>German</a>
@@ -25,8 +26,10 @@
             <a id='showswedish' href='#swedish'>Swedish</a>
             </p>
 			<p>Check out the table below for the hunimal numbers 00-99.</p>
-            <h3 id='english'>English (Hunimal)</h3>
-			<table id="hunimal-list-table"></table>
+            <h3 id='english' style='display: none;'>English (Hunimal) Version 1</h3>
+			<table id="hunimal-list-table" class='huntab' style='display: none;'></table>
+            <h3 id='ver2'>English (Hunimal) Version 2</h3>
+			<table id="hunimal-ver2" class='huntab'></table>
             <h3 id='spanish' style='display: none;'>Spanish (Cienimal)</h3>
             <table id="hunimal-spanish" class='huntab' style='display: none;'></table>
             <h3 id='russian' style='display: none;'>Russian (Sotimal)</h3>
