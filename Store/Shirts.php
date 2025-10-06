@@ -96,7 +96,10 @@ window.addEventListener('load', e => {
     opt.innerText = 100 + " " + String.fromCharCode(0x5501) + String.fromCharCode(0x5500);
     select.appendChild(opt);
     $('#design').addEventListener('change', e => {
-        if ($('#design').selectedIndex == 5) {
+        if ($('#design').selectedIndex == 4) {
+            if ($('#hunimal-number').selectedIndex == 0) {
+                $('#hunimal-number').selectedIndex = 1;
+            }
             $('#shirt-cost').style.display = 'none';
             $('#hat-cost').style.display = 'inline';
         } else {
