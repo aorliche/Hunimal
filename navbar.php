@@ -100,7 +100,7 @@
 				<span class="tooltiptext">Patterns in square numbers in different bases.</span>
 			</li>
 			<li class="tooltip">
-				<a href="/Hunimal/times-tables.html" data-new>Times Tables</a>
+				<a href="/Hunimal/times-table.html" data-new>Times Table</a>
 				<span class="tooltiptext">Fill in times tables to practice Hunimal multiplication.</span>
 			</li>
         </ul>
