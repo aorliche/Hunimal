@@ -75,7 +75,7 @@
 				<span class='tooltiptext'>Test your knowledge of Hunimal, now with multiplication!</span>
 			</li>
 			<li class='tooltip'>
-				<a href='/Hunimal/factorial.php' data-new>Factorials</a>
+				<a href='/Hunimal/factorial.php'>Factorials</a>
 				<span class='tooltiptext'>Factorials in Hunimal.</span>
 			</li>
 			<li class='tooltip'>
@@ -98,6 +98,10 @@
 			<li class="tooltip">
 				<a href="/Hunimal/SquareNumbers/index.php">Square Numbers</a>
 				<span class="tooltiptext">Patterns in square numbers in different bases.</span>
+			</li>
+			<li class="tooltip">
+				<a href="/Hunimal/times-tables.html" data-new>Times Tables</a>
+				<span class="tooltiptext">Fill in times tables to practice Hunimal multiplication.</span>
 			</li>
         </ul>
     </li>

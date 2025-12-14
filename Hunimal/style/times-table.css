@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "HunimalSansv1.5";
+	src: url('/Hunimal/Font/font/HunimalSansv1.5.ttf');
+}
+
+.hunimal-font {
+	font-family: "HunimalSansv1.5";
+}
+
+#times-tables table {
+	margin-bottom: 80px;
+}
+
+#times-tables th, #times-tables td {
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 5px;
+	border: 1px solid black;
+}
