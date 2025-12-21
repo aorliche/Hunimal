@@ -20,6 +20,7 @@
             <a id='showenglish' href='#english'>English</a>
 			<a id='showver2' href='#ver2'>V2</a>
 			<a id='showcentimal' href='#centimal'>Centimal</a>
+			<a id='showfrench' href='#french'>French</a>
             <a id='showspanish' href='#spanish'>Spanish</a>
             <a id='showrussian' href='#russian'>Russian</a>
             <a id='showgerman' href='#german'>German</a>
@@ -33,6 +34,8 @@
 			<table id="hunimal-ver2" class='huntab'></table>
             <h3 id='centimal' style='display: none;'>English (Competing Centimal System)</h3>
 			<table id="hunimal-centimal" class='huntab' style='display: none;'></table>
+            <h3 id='french' style='display: none;'>French (Centimal)</h3>
+            <table id="hunimal-french" class='huntab' style='display: none;'></table>
             <h3 id='spanish' style='display: none;'>Spanish (Cienimal)</h3>
             <table id="hunimal-spanish" class='huntab' style='display: none;'></table>
             <h3 id='russian' style='display: none;'>Russian (Sotimal)</h3>

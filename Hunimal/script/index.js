@@ -4,17 +4,19 @@ window.addEventListener("load", e => {
 	const hunimalListTable = document.querySelector("#hunimal-list-table");
     const ver2 = document.querySelector('#hunimal-ver2');
 	const centimal = document.querySelector('#hunimal-centimal');
+	const french = document.querySelector('#hunimal-french');
     const spanish = document.querySelector("#hunimal-spanish");
     const russian = document.querySelector("#hunimal-russian");
     const german = document.querySelector("#hunimal-german");
     const korean = document.querySelector("#hunimal-korean");
     const swedish = document.querySelector('#hunimal-swedish');
 
-    const alltables = [hunimalListTable, ver2, centimal, spanish, russian, german, korean, swedish];
+    const alltables = [hunimalListTable, ver2, centimal, french, spanish, russian, german, korean, swedish];
 
     const henglish = document.querySelector('#english');
     const hver2 = document.querySelector('#ver2');
 	const hcentimal = document.querySelector('#centimal');
+	const hfrench = document.querySelector('#french');
     const hspanish = document.querySelector('#spanish');
     const hrussian = document.querySelector('#russian');
     const hgerman = document.querySelector('#german');
@@ -26,6 +28,7 @@ window.addEventListener("load", e => {
     const aenglish = document.querySelector('#showenglish');
     const aver2 = document.querySelector('#showver2');
 	const acentimal = document.querySelector('#showcentimal');
+	const afrench = document.querySelector('#showfrench');
     const aspanish = document.querySelector('#showspanish');
     const arussian = document.querySelector('#showrussian');
     const agerman = document.querySelector('#showgerman');
@@ -65,6 +68,11 @@ window.addEventListener("load", e => {
 		const centExp = document.querySelector('#centimal-exp');
 		centExp.style.display = "block";
 	});
+    afrench.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(french, hfrench);
+    });
     aspanish.addEventListener("click", e => {
         e.preventDefault();
         hideall();
@@ -134,6 +142,7 @@ window.addEventListener("load", e => {
 	fetchWordsAndStart(hunimalListTable, "words/hun.txt", '\r\n');
 	fetchWordsAndStart(ver2, "words/hun2.txt", '\n');
 	fetchWordsAndStart(centimal, "words/Centimal.txt", '\n');
+	fetchWordsAndStart(french, "words/French.txt", '\n');
 	fetchWordsAndStart(spanish, "words/cienimal.txt", '\r\n');
 	fetchWordsAndStart(russian, "words/sotimal_cyrillic.txt", '\n');
 	fetchWordsAndStart(german, "words/Dertimal.txt", '\n');
