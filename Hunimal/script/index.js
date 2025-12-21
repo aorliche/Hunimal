@@ -23,7 +23,7 @@ window.addEventListener("load", e => {
     const hkorean = document.querySelector('#korean');
     const hswedish = document.querySelector('#swedish');
 
-    const allh = [henglish, hver2, hcentimal, hspanish, hrussian, hgerman, hkorean, hswedish];
+    const allh = [henglish, hver2, hcentimal, hfrench, hspanish, hrussian, hgerman, hkorean, hswedish];
     
     const aenglish = document.querySelector('#showenglish');
     const aver2 = document.querySelector('#showver2');
