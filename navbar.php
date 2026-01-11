@@ -10,7 +10,7 @@
         <span class='tooltiptext'>A rogue-like procedurally generated game</span>
     </li>
     <li class='tooltip'>
-        <a href='/Chess/'>Chess</a>
+        <a href='/Chess/' data-new>Chess (with Guess)</a>
         <span class='tooltiptext'>Play chess against a weak computer (Stockfish depth 5)</span>
     </li>
     <li class='tooltip'>
