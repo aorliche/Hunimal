@@ -10,7 +10,7 @@
         <span class='tooltiptext'>A rogue-like procedurally generated game</span>
     </li>
     <li class='tooltip'>
-        <a href='/Chess/' data-new>Chess (with Guess)</a>
+        <a href='/Chess/'>Chess (with Guess)</a>
         <span class='tooltiptext'>Play chess against a weak computer (Stockfish depth 5)</span>
     </li>
     <li class='tooltip'>
@@ -26,7 +26,7 @@
 		<span class="tooltiptext">Two people can play reversi on a non-rectangular board (need separate browser windows)</span>
 	</li>
 	<li class="tooltip">
-		<a href="http://45.56.117.175:8004/spades.html" data-new>Spades</a>
+		<a href="http://45.56.117.175:8004/spades.html">Spades</a>
 		<span class="tooltiptext">Play spades against an AI</span>
 	</li>
     <li class='tooltip'>
@@ -46,7 +46,7 @@
 		<span class="tooltiptext">A new cryptocurrency idea from the creators of Hunimal</span>
 	</li>-->
 	<li class="tooltip">
-		<a href="/knot-mosaic/" data>Knot Mosaics</a>
+		<a href="/knot-mosaic/">Knot Mosaics</a>
 		<span class="tooltiptext">Program for generating semi-random knot mosaics up to 5 crossings</span>
 	</li>
 	<!--
@@ -63,7 +63,7 @@
 		</ul>
 	</li>
 	-->
-    <li><a href="/Hunimal/">Hunimal</a></li>
+    <li><a href="/Hunimal/" data-new>Hunimal</a></li>
     <li>
         <ul>
 			<li class='tooltip'>
@@ -71,7 +71,7 @@
 				<span class='tooltiptext'>Test your knowledge of Hunimal</span>
 			</li>
 			<li class='tooltip'>
-				<a href='/Hunimal/quiz2.php' data-new>Quiz with Mult</a>
+				<a href='/Hunimal/quiz2.php'>Quiz with Mult</a>
 				<span class='tooltiptext'>Test your knowledge of Hunimal, now with multiplication!</span>
 			</li>
 			<li class='tooltip'>
@@ -100,7 +100,7 @@
 				<span class="tooltiptext">Patterns in square numbers in different bases.</span>
 			</li>
 			<li class="tooltip">
-				<a href="/Hunimal/times-table.html" data-new>Times Table</a>
+				<a href="/Hunimal/times-table.html">Times Table</a>
 				<span class="tooltiptext">Fill in times tables to practice Hunimal multiplication.</span>
 			</li>
         </ul>
