@@ -15,8 +15,9 @@ window.addEventListener("load", e => {
 	const mandarin = document.querySelector('#hunimal-mandarin');
 	const cantonese = document.querySelector('#hunimal-cantonese');
 	const hindi = document.querySelector('#hunimal-hindi');
+	const arabic = document.querySelector('#hunimal-arabic');
 
-    const alltables = [hunimalListTable, ver2, ver3, centimal, french, spanish, russian, german, korean, swedish, portuguese, mandarin, cantonese, hindi];
+    const alltables = [hunimalListTable, ver2, ver3, centimal, french, spanish, russian, german, korean, swedish, portuguese, mandarin, cantonese, hindi, arabic];
 
     const henglish = document.querySelector('#english');
     const hver2 = document.querySelector('#ver2');
@@ -32,8 +33,9 @@ window.addEventListener("load", e => {
 	const hmandarin = document.querySelector('#mandarin');
 	const hcantonese = document.querySelector('#cantonese');
 	const hhindi = document.querySelector('#hindi');
+	const harabic = document.querySelector('#arabic');
 
-    const allh = [henglish, hver2, hver3, hcentimal, hfrench, hspanish, hrussian, hgerman, hkorean, hswedish, hportuguese, hmandarin, hcantonese, hhindi];
+    const allh = [henglish, hver2, hver3, hcentimal, hfrench, hspanish, hrussian, hgerman, hkorean, hswedish, hportuguese, hmandarin, hcantonese, hhindi, harabic];
     
     const aenglish = document.querySelector('#showenglish');
     const aver2 = document.querySelector('#showver2');
@@ -49,6 +51,7 @@ window.addEventListener("load", e => {
 	const amandarin = document.querySelector('#showmandarin');
 	const acantonese = document.querySelector('#showcantonese');
 	const ahindi = document.querySelector('#showhindi');
+	const aarabic = document.querySelector('#showarabic');
 
     function hideall() {
         alltables.forEach(tab => {
@@ -138,6 +141,11 @@ window.addEventListener("load", e => {
         hideall();
         show(hindi, hhindi);
     });
+    aarabic.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(arabic, harabic);
+    });
 
     async function fetchWordsAndStart(hunimalListTable, file, sep) {
        
@@ -193,6 +201,6 @@ window.addEventListener("load", e => {
     fetchWordsAndStart(mandarin, "words/Mandarin.txt", '\n');
     fetchWordsAndStart(cantonese, "words/Cantonese.txt", '\n');
     fetchWordsAndStart(hindi, "words/Hindi.txt", '\n');
-    
+    fetchWordsAndStart(arabic, "words/Arabic.txt", '\n');
 
 }, false);

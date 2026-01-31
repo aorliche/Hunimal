@@ -31,6 +31,7 @@
 			<a id='showmandarin' href='#mandarin'>Mandarin 汉语百进制 (AI)</a>
 			<a id='showcantonese' href='#cantonese'>Cantonese Jyutping (AI)</a>
 			<a id='showhindi' href='#hindi'>Hindi (AI)</a>
+			<a id='showarabic' href='#arabic'>Arabic (AI)</a>
             </p>
 			<p>Check out the table below for the hunimal numbers 00-99.</p>
             <h3 id='english' style='display: none;'>English (Hunimal) Version 1</h3>
@@ -61,6 +62,8 @@
 			<table id='hunimal-cantonese' class='huntab' style='display: none;'></table>
             <h3 id='hindi' style='display: none;'>Hindi</h3>
 			<table id='hunimal-hindi' class='huntab' style='display: none;'></table>
+            <h3 id='arabic' style='display: none;'>Arabic</h3>
+			<table id='hunimal-arabic' class='huntab' style='display: none;'></table>
 			<p id='centimal-exp' style='display: none;'>The Centimal system, originally found at <a href='https://centimal.org'>https://centimal.org</a>, is a competing though inferior system to Hunimal. As of December 2025 the site can be reached via the Internet Archive Wayback Machine. Their most significant feature was the Centimal geolocation service.</p>
         </div>
     </div>
