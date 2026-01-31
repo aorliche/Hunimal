@@ -37,7 +37,7 @@
 			<table id="hunimal-list-table" class='huntab' style='display: none;'></table>
             <h3 id='ver2'>English (Hunimal) Version 2</h3>
 			<table id="hunimal-ver2" class='huntab'></table>
-            <h3 id='ver3'>English (Hunimal) Version 3</h3>
+            <h3 id='ver3' style='display: none;'>English (Hunimal) Version 3</h3>
 			<table id="hunimal-ver3" class='huntab' style='display: none;'></table>
             <h3 id='centimal' style='display: none;'>English (Competing Centimal System)</h3>
 			<table id="hunimal-centimal" class='huntab' style='display: none;'></table>
