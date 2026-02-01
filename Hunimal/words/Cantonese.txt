@@ -1,100 +1,100 @@
-拎 ling1 Zo
-拉 laai1 Zun
-囉 lo1 Zwo
-留 lau4 Zree
-嚟 lai4 Zor
-老 lou5 Zive
-亂 lyun6 Zix
-叻 lek1 Zev
-靚 leng3 Zate
-路 lou6 Zine
-十 sap6 Zote
-心 sam1 Onte
-鎖 so2 Twote
-手 sau2 Throte
-西 sai1 Frote
-收 sau1 Fote
-船 syun4 Snote
-石 sek6 Svote
-生 saang1 Gote
-數 sou3 Note
-而 ji4 Twent
-人 jan4 Twun
-喲 jo2 Twwo
-又 jau6 Three
-你 nei5 Twor
-鳩 gau1 Twive
-倦 gyun6 Twix
-劇 kek6 Twev
-京 ging1 Twate
-做 zou6 Twine
-三 saam1 Thirt
-心 sam1 Thrun
-所 so2 Thwro
-瘦 sau3 Threet
-晒 saai3 Thror
-小 siu2 Thrive
-酸 syun1 Thrix
-錫 sek3 Threv
-省 saang2 Thrate
-數 sou3 Thrine
-四 sei3 Fort
-先 sin1 Frun
-初 co1 Fro
-丑 cau2 Fror
-彩 coi2 Four
-草 cou2 Five
-村 cyun1 Fix
-尺 cek3 Fev
-星 sing1 Fate
-數 sou3 Fine
-五 ng5 Fift
-吳 ng4 Fun
-臥 ngo6 Fwo
-牛 ngau4 Free
-艾 ngaai6 For
-藕 ngau5 Fife
-顏 ngaan4 Fix
-逆 nik6 Fev
-硬 ngaang6 Fate
-誤 ng6 Fine
-六 luk6 Sixt
-論 leon6 Skun
-落 lok6 Skwo
-樓 lau4 Skree
-黎 lai4 Skor
-老 lou5 Skive
-亂 lyun6 Skix
-勒 lak6 Skev
-冷 laang5 Skate
-露 lou6 Skine
-七 cat1 Svent
-親 can1 Svun
-錯 co3 Svwo
-臭 cau3 Svree
-菜 coi3 Svor
-草 cou2 Svive
-存 cyun4 Svix
-七 cat1 Sven
-青 cing1 Svate
-醋 cou3 Svine
-八 baat3 Gate
-賓 ban1 Gun
-波 bo1 Gwo
-寶 bou2 Gree
-拜 baai3 Gor
-布 bou3 Give
-般 bun1 Gix
-北 bak1 Gev
-餅 bing2 Gate
-部 bou6 Gine
-九 gau2 Ninte
-跟 gan1 Nin
-過 gwo3 Nwo
-久 gau2 Nree
-街 gaai1 Nor
-狗 gau2 Nive
-卷 gyun2 Nix
-極 gik6 Nev
-經 ging1 Nate
-够 gau3 Nine
+拎 ling1
+拉 laai1
+囉 lo1
+留 lau4
+嚟 lai4
+老 lou5
+亂 lyun6
+叻 lek1
+靚 leng3
+路 lou6
+十 sap6
+心 sam1
+鎖 so2
+手 sau2
+西 sai1
+收 sau1
+船 syun4
+石 sek6
+生 saang1
+數 sou3
+而 ji4
+人 jan4
+喲 jo2
+又 jau6
+你 nei5
+鳩 gau1
+倦 gyun6
+劇 kek6
+京 ging1
+做 zou6
+三 saam1
+心 sam1
+所 so2
+瘦 sau3
+晒 saai3
+小 siu2
+酸 syun1
+錫 sek3
+省 saang2
+數 sou3
+四 sei3
+先 sin1
+初 co1
+丑 cau2
+彩 coi2
+草 cou2
+村 cyun1
+尺 cek3
+星 sing1
+數 sou3
+五 ng5
+吳 ng4
+臥 ngo6
+牛 ngau4
+艾 ngaai6
+藕 ngau5
+顏 ngaan4
+逆 nik6
+硬 ngaang6
+誤 ng6
+六 luk6
+論 leon6
+落 lok6
+樓 lau4
+黎 lai4
+老 lou5
+亂 lyun6
+勒 lak6
+冷 laang5
+露 lou6
+七 cat1
+親 can1
+錯 co3
+臭 cau3
+菜 coi3
+草 cou2
+存 cyun4
+七 cat1
+青 cing1
+醋 cou3
+八 baat3
+賓 ban1
+波 bo1
+寶 bou2
+拜 baai3
+布 bou3
+般 bun1
+北 bak1
+餅 bing2
+部 bou6
+九 gau2
+跟 gan1
+過 gwo3
+久 gau2
+街 gaai1
+狗 gau2
+卷 gyun2
+極 gik6
+經 ging1
+够 gau3

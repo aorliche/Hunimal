@@ -1,100 +1,100 @@
-唟 Lōng Zo
-唡 Lā Zun
-唢 Luō Zwo
-唣 Lōu Zree
-唥 Lāi Zor
-唦 Lāo Zive
-唨 Lāu Zix
-唫 Lē Zeven
-唭 Lī Zate
-唰 Lō Zine
-啨 Shōng Zote
-啩 Shā Onte
-啫 Shuō Twote
-啱 Shōu Throte
-啲 Shāi Frote
-啳 Shāo Fote
-啴 Shāu Snote
-啵 Shē Svote
-啶 Shī Gote
-啷 Shō Note
-啿 Èng Twent
-喁 Ā Twun
-喍 Uō Twwo
-喎 Ōu Three
-喏 Āi Twor
-喐 Āo Twive
-喑 Āu Twix
-喒 Ē Tweven
-喓 Ī Twate
-喔 Ō Twine
-喛 Sōng Thirt
-喞 Sā Thrun
-喠 Suō Thwro
-喡 Sōu Threet
-喢 Sāi Thror
-喣 Sāo Thrive
-喤 Sāu Thrix
-喥 Sē Threven
-喦 Sī Thrate
-喨 Sō Thrine
-喩 Fōng Fort
-喪 Fā Frun
-喫 Fuō Fro
-喬 Fōu Fror
-喭 Fāi Four
-單 Fāo Five
-喯 Fāu Fix
-喰 Fē Feven
-喲 Fī Fate
-喴 Fō Fine
-喺 Wōng Fift
-喼 Wā Fun
-喿 Wuō Fwo
-嗀 Wōu Free
-嗁 Wāi For
-嗂 Wāo Fife
-嗃 Wāu Fix
-嗄 Wē Feven
-嗆 Wī Fate
-嗇 Wō Fine
-嗈 Liōng Sixt
-嗉 Liā Skun
-嗊 Liuō Skwo
-嗋 Liōu Skree
-嗌 Liāi Skor
-嗎 Liāo Skive
-嗐 Liāu Skix
-嗑 Liē Skeven
-嗒 Lī Skate
-嗓 Liō Skine
-嗔 Qōng Svent
-嗕 Qā Svun
-嗗 Quō Svwo
-嗘 Qōu Svree
-嗙 Qāi Svor
-嗚 Qāo Svive
-嗛 Qāu Svix
-嗜 Qē Sveven
-嗞 Qī Svate
-嗠 Qō Svine
-嗡 Bōng Gate
-嗢 Bā Gun
-嗧 Buō Gwo
-嗩 Bōu Gree
-嗰 Bāi Gor
-嗱 Bāo Give
-嗲 Bāu Gix
-嗳 Bē Geven
-嗴 Bī Gate
-嗵 Bō Gine
-嗶 Jiōng Ninte
-嗸 Jiā Nin
-嗹 Jiuō Nwo
-嗺 Jiōu Nree
-嗻 Jiāi Nor
-嗼 Jiāo Nive
-嗿 Jiāu Nix
-嘂 Jiē Neven
-嘃 Jī Nate
-嘄 Jiō Nine
+唟 Lōng
+唡 Lā
+唢 Luō
+唣 Lōu
+唥 Lāi
+唦 Lāo
+唨 Lāu
+唫 Lē
+唭 Lī
+唰 Lō
+啨 Shōng
+啩 Shā
+啫 Shuō
+啱 Shōu
+啲 Shāi
+啳 Shāo
+啴 Shāu
+啵 Shē
+啶 Shī
+啷 Shō
+啿 Èng
+喁 Ā
+喍 Uō
+喎 Ōu
+喏 Āi
+喐 Āo
+喑 Āu
+喒 Ē
+喓 Ī
+喔 Ō
+喛 Sōng
+喞 Sā
+喠 Suō
+喡 Sōu
+喢 Sāi
+喣 Sāo
+喤 Sāu
+喥 Sē
+喦 Sī
+喨 Sō
+喩 Fōng
+喪 Fā
+喫 Fuō
+喬 Fōu
+喭 Fāi
+單 Fāo
+喯 Fāu
+喰 Fē
+喲 Fī
+喴 Fō
+喺 Wōng
+喼 Wā
+喿 Wuō
+嗀 Wōu
+嗁 Wāi
+嗂 Wāo
+嗃 Wāu
+嗄 Wē
+嗆 Wī
+嗇 Wō
+嗈 Liōng
+嗉 Liā
+嗊 Liuō
+嗋 Liōu
+嗌 Liāi
+嗎 Liāo
+嗐 Liāu
+嗑 Liē
+嗒 Lī
+嗓 Liō
+嗔 Qōng
+嗕 Qā
+嗗 Quō
+嗘 Qōu
+嗙 Qāi
+嗚 Qāo
+嗛 Qāu
+嗜 Qē
+嗞 Qī
+嗠 Qō
+嗡 Bōng
+嗢 Bā
+嗧 Buō
+嗩 Bōu
+嗰 Bāi
+嗱 Bāo
+嗲 Bāu
+嗳 Bē
+嗴 Bī
+嗵 Bō
+嗶 Jiōng
+嗸 Jiā
+嗹 Jiuō
+嗺 Jiōu
+嗻 Jiāi
+嗼 Jiāo
+嗿 Jiāu
+嘂 Jiē
+嘃 Jī
+嘄 Jiō
