@@ -28,6 +28,7 @@
             <a id='showkorean' href='#korean'>Korean</a>
 			<a id='showswedish' href='#swedish'>Swedish</a>
 			<a id='showportuguese' href='#portuguese'>Portuguese (AI)</a>
+			<a id='showicelandic' href='#icelandic'>Icelandic (AI)</a>
 			<a id='showmandarin' href='#mandarin'>Mandarin 汉语百进制 (AI)</a>
 			<a id='showcantonese' href='#cantonese'>Cantonese Jyutping (AI)</a>
 			<a id='showhindi' href='#hindi'>Hindi (AI)</a>
@@ -56,6 +57,8 @@
 			<table id='hunimal-swedish' class='huntab' style='display: none;'></table>
             <h3 id='portuguese' style='display: none;'>Portuguese (PORTUÑOL)</h3>
 			<table id='hunimal-portuguese' class='huntab' style='display: none;'></table>
+            <h3 id='icelandic' style='display: none;'>Icelandic</h3>
+			<table id='hunimal-icelandic' class='huntab' style='display: none;'></table>
             <h3 id='mandarin' style='display: none;'>MANDARIN HUNIMAL CHART (汉语百进制)</h3>
 			<table id='hunimal-mandarin' class='huntab' style='display: none;'></table>
             <h3 id='cantonese' style='display: none;'>Cantonese</h3>
