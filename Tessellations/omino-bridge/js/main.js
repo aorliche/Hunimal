@@ -97,7 +97,7 @@ window.addEventListener('load', e => {
 	const N_GROWINGS = 5;
 	const N_ITER_PER_FRAME = 100;
 	const N_FRAMES = 15;
-	const N_START_POLYS = 30;
+	const N_START_POLYS = 50;
 	let boards = [];
 	let nFrame = 0;
 	let nGrow = 0;
@@ -140,12 +140,13 @@ window.addEventListener('load', e => {
 				boards.sort((a,b) => a.polys.length < b.polys.length);
 				// Get a random subset of polys
 				const initPolys = boards[0].polys;
+                const ids = [];
 				polys = [];
 				edges = [];
 				let i = 0;
 				while (polys.length < N_START_POLYS) {
 					const poly = initPolys[Math.floor(Math.random()*initPolys.length)];
-					if (polys.includes(poly)) {
+					if (ids.includes(poly.id)) {
 						continue;
 					}
 					const center = poly.center;
@@ -159,6 +160,8 @@ window.addEventListener('load', e => {
 					if (!succ) {
 						continue;
 					}
+                    polys.at(-1).id = poly.id;
+                    ids.push(poly.id);
 					// Safety
 					if (i++ >= 100) {
 						break;
