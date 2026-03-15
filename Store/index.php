@@ -31,6 +31,20 @@
                         </div>
                     </div>
                 </div>
+                <div class='item' data-available>
+                    <div class='item-data'>
+                        <img class='pic' src='image/cards-store.png' height='96' alt='Hunimal Cards Design'>
+                        <div class='title'>
+                            <a href='Cards.php' style='color: white;'>Hunimal 107-Card Decks</a>
+                        </div>
+                        <div class='price'>
+                            Price: $<span class='hunimal-font'>&#x5520;.&#x5500;</span> per Deck
+                        </div>
+                        <div class='desc'>
+                            Hunimal-themed 107-card decks. Two complete equivalents of a typical 52-card deck with added hunimal numbering.
+                        </div>
+                    </div>
+                </div>
 				<div class='item' data-coming-soon>
 					<div class='item-data'>
 						<img class='pic' src='image/hun-print-icon1.jpg' height='96' alt='Hunimal 3D Prints'>
