@@ -15,7 +15,9 @@
             <? include('navbar.php'); ?>
             <div id="main">
                 <h3>Complete the tessellation!</h3>
-                <p>Drag ominos to complete the tesselation</p>
+                <p>Drag ominos to complete the tesselation. 
+                Once the omino is in the correct spot, the outline will become dark.
+                Once all ominos are placed and have a dark outline, you have beaten the puzzle!</p>
                 <canvas id='canvas' width='1000' height='600' tabindex=0></canvas>
             </div>
         </div>
