@@ -140,7 +140,7 @@ window.addEventListener('load', e => {
 				boards.sort((a,b) => a.polys.length < b.polys.length);
 				// Get a random subset of polys
 				const initPolys = boards[0].polys;
-                const ids = [];
+				const ids = [];
 				polys = [];
 				edges = [];
 				let i = 0;
@@ -160,8 +160,8 @@ window.addEventListener('load', e => {
 					if (!succ) {
 						continue;
 					}
-                    polys.at(-1).id = poly.id;
-                    ids.push(poly.id);
+					polys.at(-1).id = poly.id;
+					ids.push(poly.id);
 					// Safety
 					if (i++ >= 100) {
 						break;
