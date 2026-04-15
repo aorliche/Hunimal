@@ -33,12 +33,14 @@
 			<a id='showcantonese' href='#cantonese'>Cantonese Jyutping (AI)</a>
 			<a id='showhindi' href='#hindi'>Hindi (AI)</a>
 			<a id='showarabic' href='#arabic'>Arabic (AI)</a>
+			<a id='showzulu' href='#zulu'>Zulu (AI)</a>
+			<a id='showbemba' href='#bemba'>Bemba (AI)</a>
             </p>
 			<p>Check out the table below for the hunimal numbers 00-99.</p>
-            <h3 id='english' style='display: none;'>English (Hunimal) Version 1</h3>
-			<table id="hunimal-list-table" class='huntab' style='display: none;'></table>
-            <h3 id='ver2'>English (Hunimal) Version 2</h3>
-			<table id="hunimal-ver2" class='huntab'></table>
+            <h3 id='english'>English (Hunimal) Version 1</h3>
+			<table id="hunimal-list-table" class='huntab'></table>
+            <h3 id='ver2' style='display: none;'>English (Hunimal) Version 2</h3>
+			<table id="hunimal-ver2" class='huntab' style='display: none;'></table>
             <h3 id='ver3' style='display: none;'>English (Hunimal) Version 3</h3>
 			<table id="hunimal-ver3" class='huntab' style='display: none;'></table>
             <h3 id='centimal' style='display: none;'>English (Competing Centimal System)</h3>
@@ -67,6 +69,10 @@
 			<table id='hunimal-hindi' class='huntab' style='display: none;'></table>
             <h3 id='arabic' style='display: none;'>Arabic</h3>
 			<table id='hunimal-arabic' class='huntab' style='display: none;'></table>
+            <h3 id='zulu' style='display: none;'>Zulu</h3>
+			<table id='hunimal-zulu' class='huntab' style='display: none;'></table>
+            <h3 id='bemba' style='display: none;'>Bemba</h3>
+			<table id='hunimal-bemba' class='huntab' style='display: none;'></table>
 			<p id='centimal-exp' style='display: none;'>The Centimal system, originally found at <a href='https://centimal.org'>https://centimal.org</a>, is a competing though inferior system to Hunimal. As of December 2025 the site can be reached via the Internet Archive Wayback Machine. Their most significant feature was the Centimal geolocation service.</p>
         </div>
     </div>

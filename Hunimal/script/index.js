@@ -17,8 +17,10 @@ window.addEventListener("load", e => {
 	const cantonese = document.querySelector('#hunimal-cantonese');
 	const hindi = document.querySelector('#hunimal-hindi');
 	const arabic = document.querySelector('#hunimal-arabic');
+	const zulu = document.querySelector('#hunimal-zulu');
+	const bemba = document.querySelector('#hunimal-bemba');
 
-    const alltables = [hunimalListTable, ver2, ver3, centimal, french, spanish, russian, german, korean, swedish, portuguese, icelandic, mandarin, cantonese, hindi, arabic];
+    const alltables = [hunimalListTable, ver2, ver3, centimal, french, spanish, russian, german, korean, swedish, portuguese, icelandic, mandarin, cantonese, hindi, arabic, zulu, bemba];
 
     const henglish = document.querySelector('#english');
     const hver2 = document.querySelector('#ver2');
@@ -36,8 +38,10 @@ window.addEventListener("load", e => {
 	const hcantonese = document.querySelector('#cantonese');
 	const hhindi = document.querySelector('#hindi');
 	const harabic = document.querySelector('#arabic');
+	const hzulu = document.querySelector('#zulu');
+	const hbemba= document.querySelector('#bemba');
 
-    const allh = [henglish, hver2, hver3, hcentimal, hfrench, hspanish, hrussian, hgerman, hkorean, hswedish, hportuguese, hicelandic, hmandarin, hcantonese, hhindi, harabic];
+    const allh = [henglish, hver2, hver3, hcentimal, hfrench, hspanish, hrussian, hgerman, hkorean, hswedish, hportuguese, hicelandic, hmandarin, hcantonese, hhindi, harabic, hzulu, hbemba];
     
     const aenglish = document.querySelector('#showenglish');
     const aver2 = document.querySelector('#showver2');
@@ -55,6 +59,8 @@ window.addEventListener("load", e => {
 	const acantonese = document.querySelector('#showcantonese');
 	const ahindi = document.querySelector('#showhindi');
 	const aarabic = document.querySelector('#showarabic');
+	const azulu = document.querySelector('#showzulu');
+	const abemba = document.querySelector('#showbemba');
 
     function hideall() {
         alltables.forEach(tab => {
@@ -154,6 +160,16 @@ window.addEventListener("load", e => {
         hideall();
         show(arabic, harabic);
     });
+    azulu.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(zulu, hzulu);
+    });
+    abemba.addEventListener("click", e => {
+        e.preventDefault();
+        hideall();
+        show(bemba, hbemba);
+    });
 
     async function fetchWordsAndStart(hunimalListTable, file, sep) {
        
@@ -195,9 +211,9 @@ window.addEventListener("load", e => {
             
     }
     
-	fetchWordsAndStart(hunimalListTable, "words/hun.txt", '\r\n');
+	fetchWordsAndStart(hunimalListTable, "words/hun3.txt", '\n');
 	fetchWordsAndStart(ver2, "words/hun2.txt", '\n');
-	fetchWordsAndStart(ver3, "words/hun3.txt", '\n');
+	fetchWordsAndStart(ver3, "words/hun.txt", '\r\n');
 	fetchWordsAndStart(centimal, "words/Centimal.txt", '\n');
 	fetchWordsAndStart(french, "words/French.txt", '\n');
 	fetchWordsAndStart(spanish, "words/cienimal.txt", '\r\n');
@@ -211,5 +227,7 @@ window.addEventListener("load", e => {
     fetchWordsAndStart(cantonese, "words/Cantonese.txt", '\n');
     fetchWordsAndStart(hindi, "words/Hindi.txt", '\n');
     fetchWordsAndStart(arabic, "words/Arabic.txt", '\n');
+    fetchWordsAndStart(zulu, "words/Zulu.txt", '\n');
+    fetchWordsAndStart(bemba, "words/Bemba.txt", '\n');
 
 }, false);
