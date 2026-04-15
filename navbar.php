@@ -63,7 +63,7 @@
 		</ul>
 	</li>
 	-->
-    <li><a href="/Hunimal/" data-new>Hunimal</a></li>
+    <li><a href="/Hunimal/">Hunimal</a></li>
     <li>
         <ul>
 			<li class='tooltip'>
@@ -109,6 +109,14 @@
         <a href="/Tessellations/">Tesselations</a>
         <span class="tooltiptext">Tessellate the plane using regular polygons of equal
         side length and angle.</span>
+    </li>
+    <li>
+        <ul>
+			<li class='tooltip'>
+				<a href='/Tessellations/omino-bridge.php' data-new>Omino Bridge</a>
+				<span class='tooltiptext'>Generate a random tesselation then complete it.</span>
+			</li>
+        </ul>
     </li>
     <li class="tooltip">
         <a href="/MSPs/">Multi-Solu Puzzles</a>
