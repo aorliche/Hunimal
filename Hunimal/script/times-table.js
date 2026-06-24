@@ -1,9 +1,8 @@
 const $ = q => document.querySelector(q);
 const $$ = q => [...document.querySelectorAll(q)];
 
-window.addEventListener('load', e => {
-	const div = $('#times-tables');
-
+function rebuildTimesTable(div, showAnswers) {
+	div.innerHTML = '';
 	for (let i=0; i<100; i += 10) {
 		for (let k=0; k<100; k += 10) {
 			// Is this part of table all empty (below main diagonal)?
@@ -40,6 +39,11 @@ window.addEventListener('load', e => {
 					// No fill in below diagonal
 					if (j < kk) {
 						td.style.border = 'none';
+					} else if (showAnswers) {
+						const ans = kk*j;
+						const ans0 = ans%10;
+						const ans1 = Math.floor(ans/10);
+						td.innerText = String.fromCharCode(0x5500 + ans1*16 + ans0);
 					}
 					tr.appendChild(td);
 				}
@@ -48,4 +52,12 @@ window.addEventListener('load', e => {
 			div.appendChild(table);
 		}
 	}
+}
+
+window.addEventListener('load', e => {
+	const div = $('#times-tables');
+	$('#show-answers').addEventListener('change', ee => {
+		rebuildTimesTable(div, $('#show-answers').checked);
+	});
+	rebuildTimesTable(div);
 });
