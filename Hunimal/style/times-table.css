@@ -13,8 +13,9 @@
 
 #times-tables th, #times-tables td {
 	padding: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	width: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 40px;
+	text-align: center;
 	border: 1px solid black;
 }
