@@ -41,9 +41,16 @@ function rebuildTimesTable(div, showAnswers) {
 						td.style.border = 'none';
 					} else if (showAnswers) {
 						const ans = kk*j;
-						const ans0 = ans%10;
-						const ans1 = Math.floor(ans/10);
-						td.innerText = String.fromCharCode(0x5500 + ans1*16 + ans0);
+						const a0 = ans%10;
+						const a1 = Math.floor(ans/10)%10;
+						const a2 = Math.floor(ans/100)%10;
+						const a3 = Math.floor(ans/1000);
+						if (a2 > 0 || a3 > 0) {
+							td.innerText = String.fromCharCode(0x5500 + a3*16 + a2)
+								+ String.fromCharCode(0x5500 + a1*16 + a0);
+						} else {
+							td.innerText = String.fromCharCode(0x5500 + a1*16 + a0);
+						}
 					}
 					tr.appendChild(td);
 				}
