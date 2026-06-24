@@ -45,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-				<div class='item' data-coming-soon>
+				<!--<div class='item' data-coming-soon>
 					<div class='item-data'>
 						<img class='pic' src='image/hun-print-icon1.jpg' height='96' alt='Hunimal 3D Prints'>
 						<div class='title'>
@@ -77,7 +77,7 @@
 					</div>
 					<div class='coming-soon'>
 						Coming soon!
-					</div>
+					</div>-->
 				</div>
 			</div>
         </div>
