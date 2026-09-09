@@ -14,8 +14,7 @@
     <div id="container">
         <? include('navbar.php'); ?>
         <div id="main">
-			<p>How well can you do arithmetic in Hunimal? Try to beat the timer and get the best score! <a href='ShowStats.php'>See your previous times.</a></p>
-			<iframe src='/arithmetic-game/index.html' width=1300 height=700></iframe>
+			<iframe src='/arithmetic-game/show_stats2.php' width=1200 height=700></iframe>
         </div>
     </div>
     <? include('footer.php'); ?>

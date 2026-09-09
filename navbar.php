@@ -14,8 +14,24 @@
         <span class='tooltiptext'>Play chess against a weak computer (Stockfish depth 5)</span>
     </li>
     <li class='tooltip'>
-        <a href='/ArithmeticGame/' data-new>Arithmetic Game</a>
+        <a href='/ArithmeticGame/'>Arithmetic Game</a>
         <span class='tooltiptext'>See how well you can perform arithmetic in Hunimal!</span>
+    </li>
+    <li class='tooltip'>
+        <a href="/VisualQuiz/Quiz.php" data-new>Visual Quiz</a>
+        <span class="tooltiptext">Test your knowledge with a fill-in-the-blank quiz</span>
+    </li>
+    <li>
+        <ul>
+            <li class="tooltip">
+                <a href="/VisualQuiz/Create.php">Create Quiz</a>
+                <span class="tooltiptext">Create a new visual quiz on the topic of your choice</span>
+            </li>
+            <li class="tooltip">
+                <a href="/VisualQuiz/AnP.php" data-new>Anatomy and Physiology</a>
+                <span class="tooltiptext">Take quizzes from anatomy and physiology topics</span>
+            </li>
+        </ul>
     </li>
 	<li class="tooltip">
 		<a href="http://45.56.117.175:8001/go.html">Go</a>
