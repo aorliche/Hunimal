@@ -14,7 +14,8 @@
         <? include('navbar.php'); ?>
         <div id="main">
 			<? include('store-menu.php'); ?>
-			<script src="https://www.paypal.com/sdk/js?client-id=Ac2kKDmIdhxeMckOR7-ZQxNbLkvPcNfQK_59t6QYF6Nvv55OxL7DQoZClegXHYRKJB8ceO6vjr7yUYds&currency=USD"></script>
+			<!--<script src="https://www.paypal.com/sdk/js?client-id=Ac2kKDmIdhxeMckOR7-ZQxNbLkvPcNfQK_59t6QYF6Nvv55OxL7DQoZClegXHYRKJB8ceO6vjr7yUYds&currency=USD"></script>-->
+            <h3 style='color: red;'>We are currently sold out of card decks. In the process of restocking. Check back soon!</h3>
             <p><u>Expect one to two weeks for shipping. We only ship to the United States.</u> Pay $10 for shipping.</p>
             <div id='designs'>
                 <div class='design' style='width: 800px'>
@@ -33,7 +34,7 @@
                 <option>5</option>
             </select>
             </p>
-            <div id="paypal-button-container"></div>
+            <!--<div id="paypal-button-container"></div>-->
 <script>
 const $ = (q) => document.querySelector(q);
 const $$ = (q) => [...document.querySelectorAll(q)];

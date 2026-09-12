@@ -37,10 +37,10 @@
 		<a href="http://45.56.117.175:8001/go.html">Go</a>
 		<span class="tooltiptext">Two people can play Go on a non-rectangular board (need separate browser windows)</span>
 	</li>
-	<li class="tooltip">
+	<!--<li class="tooltip">
 		<a href="http://45.56.117.175:8003/othello.html">Reversi (Othello)</a>
 		<span class="tooltiptext">Two people can play reversi on a non-rectangular board (need separate browser windows)</span>
-	</li>
+	</li>-->
 	<li class="tooltip">
 		<a href="http://45.56.117.175:8004/spades.html">Spades</a>
 		<span class="tooltiptext">Play spades against an AI</span>
@@ -82,6 +82,10 @@
     <li><a href="/Hunimal/">Hunimal</a></li>
     <li>
         <ul>
+            <li class="tooltip">
+                <a href="/NumberWords/" data-new>Number Words</a>
+                <span class="tooltiptext">Fill out words based on number types</span>
+            </li>
             <li class="tooltip">
                 <a href="/Gliders/" data-new>Gliders 3D</a>
                 <span class="tooltiptext">Play a Hunimal-themed 3D space shooting game</span>
