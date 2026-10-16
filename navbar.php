@@ -83,6 +83,10 @@
     <li>
         <ul>
             <li class="tooltip">
+                <a href="/Hunimal/Flashcards.php" data-new>Mult Flashcards</a>
+                <span class="tooltiptext">Create multiplication flashcards</span>
+            </li>
+            <li class="tooltip">
                 <a href="/NumberWords/" data-new>Number Words</a>
                 <span class="tooltiptext">Fill out words based on number types</span>
             </li>

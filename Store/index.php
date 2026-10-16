@@ -45,24 +45,21 @@
                         </div>
                     </div>
                 </div>
-				<!--<div class='item' data-coming-soon>
+				<div class='item' data-available>
 					<div class='item-data'>
 						<img class='pic' src='image/hun-print-icon1.jpg' height='96' alt='Hunimal 3D Prints'>
 						<div class='title'>
-							<a href="">2-Inch Hunimal 3D Prints</a>
+							<a href="3DPrints.php">Bag of 10 Random Hunimal 3D Prints</a>
 						</div>
 						<div class='price'>
-							Price: $<span class='hunimal-font'>&#x5501;.&#x5500;</span> per 1 Digit
+							Price: $<span class='hunimal-font'>&#x5510;.&#x5500;</span> per 10 Random Digits
 						</div>
 						<div class='desc'>
-							3D Printed Hunimal digits from <span class='hunimal-font'>&#x5500;-&#x5599;</span> that are about 2 inches in size. Multiple colors available. Limited supply.
+							10 random 3D Printed Hunimal digits from <span class='hunimal-font'>&#x5500;-&#x5599;</span> that are about 2 inches in size. From a random grab bag.
 						</div>
 					</div>
-					<div class='coming-soon'>
-					    Sold out!
-					</div>
 				</div>
-				<div class='item' data-coming-soon>
+				<!--<div class='item' data-coming-soon>
 					<div class='item-data'>
 						<img class='pic' src='image/pig96.png' alt='Pigcoin Pig $$'>
 						<div class='title'>

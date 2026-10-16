@@ -47,7 +47,7 @@
                 <h3>Integumentary System</h3>
                 <ul>
                 <li><a href='Quiz.php?page=Integumentary1'>Parts of the Integument</a></li>
-                <li><a href='Quiz.php?page=IntegumentaryStrata1'>Srata of the Integument</a></li>
+                <li><a href='Quiz.php?page=IntegumentaryStrata1'>Strata of the Integument</a></li>
                 <li><a href='Quiz.php?page=IntegumentaryNail1'>Nails</a></li>
                 <li><a href='Quiz.php?page=IntegumentaryHair1'>Schematic Diagram of Hair</a></li>
                 <li><a href='Quiz.php?page=IntegumentaryHair2'>Cross-sectional View of Hair</a></li>
@@ -62,8 +62,8 @@
                 <li><a href='Quiz.php?page=SkeletonBoneMarkings2'>Bone Markings 2</a></li>
                 <li><a href='Quiz.php?page=Skeleton1'>Major Bones 1</a></li>
                 <li><a href='Quiz.php?page=Skeleton2'>Cranial Bones and Cavities</a></li>
-                <li><a href='Quiz.php?page=SkeletonSkull1A'>Skull 1A</a></li>
-                <li><a href='Quiz.php?page=SkeletonSkull1B'>Skull 1B</a></li>
+                <li><a href='Quiz.php?page=SkeletonSkull1A'>Skull 1A (Anterior View)</a></li>
+                <li><a href='Quiz.php?page=SkeletonSkull1B'>Skull 1B (Posterior View)</a></li>
                 <li><a href='Quiz.php?page=SkeletonSkull2'>Skull 2 (Side View)</a></li>
                 <li><a href='Quiz.php?page=SkeletonSkull3'>Skull 3 (Interior Side View)</a></li>
                 <li><a href='Quiz.php?page=SkeletonSkull4'>Skull 4 (Inferior View)</a></li>
@@ -90,6 +90,28 @@
                 <li><a href='Quiz.php?page=SkeletonVertebra2'>Vertebra 2</a></li>
                 <li><a href='Quiz.php?page=SkeletonVertebra3'>Vertebra 3</a></li>
                 <li><a href='Quiz.php?page=SkeletonVertebra4'>Vertebra 4</a></li>
+                <li><a href='Quiz.php?page=SkeletonAtlas'>Atlas (C1)</a></li>
+                <li><a href='Quiz.php?page=SkeletonAxis'>Axis (C2)</a></li>
+                <li><a href='Quiz.php?page=SkeletonSacrum'>Sacrum</a></li>
+                </ul>
+            </div>
+            <div class='category'>
+                <h3>Skeletal System 3</h3>
+                <ul>
+                <li><a href='Quiz.php?page=SkeletonScapula1'>Scapula (Anterior/Posterior Views)</a></li>
+                <li><a href='Quiz.php?page=SkeletonScapula2'>Scapula (Lateral View)</a></li>
+                <li><a href='Quiz.php?page=SkeletonHumerus'>Humerus</a></li>
+                <li><a href='Quiz.php?page=SkeletonAnteriorElbow'>Anterior Elbow</a></li>
+                <li><a href='Quiz.php?page=SkeletonPosteriorElbow'>Posterior Elbow</a></li>
+                <li><a href='Quiz.php?page=SkeletonForearm1'>Radius and Ulna</a></li>
+                <li><a href='Quiz.php?page=SkeletonForearm2'>Proximal and Distal Forearm</a></li>
+                <li><a href='Quiz.php?page=SkeletonHand'>Hand</a></li>
+                <li><a href='Quiz.php?page=SkeletonHipBone1'>Hip Bone (Anterior View)</a></li>
+                <li><a href='Quiz.php?page=SkeletonHipBone2'>Hip Bone (Lateral and Medial View)</a></li>
+                <li><a href='Quiz.php?page=SkeletonHipBone3'>Real Hip Bone (Lateral and Medial View)</a></li>
+                <li><a href='Quiz.php?page=SkeletonFemur'>Femur</a></li>
+                <li><a href='Quiz.php?page=SkeletonTibiaFibula'>Tibia and Fibula</a></li>
+                <li><a href='Quiz.php?page=SkeletonFoot'>Foot</a></li>
                 </ul>
             </div>
             <div class='category'>
@@ -99,6 +121,17 @@
                 <li><a href='Quiz.php?page=Muscular1B'>Major Muscles Inferior Anterior</a></li>
                 <li><a href='Quiz.php?page=Muscular2A'>Major Muscles Superior Posterior</a></li>
                 <li><a href='Quiz.php?page=Muscular2B'>Major Muscles Inferior Posterior</a></li>
+                <li><a href='Quiz.php?page=MusclesFacial'>Facial Muscles</a></li>
+                <li><a href='Quiz.php?page=MusclesMasticationAndTongue'>Tongue Muscles and Muscles of Mastication</a></li>
+                <li><a href='Quiz.php?page=MusclesAnteriorNeck'>Muscles of the Anterior Neck</a></li>
+                <li><a href='Quiz.php?page=MusclesNeck'>Muscles of the Anterior and Posterior Neck</a></li>
+                <li><a href='Quiz.php?page=MusclesThroat'>Muscles of the Throat</a></li>
+                <li><a href='Quiz.php?page=MusclesSpinalErectors'>Spinal Erectors</a></li>
+                <li><a href='Quiz.php?page=MusclesRespiration'>Muscles of Respiration</a></li>
+                <li><a href='Quiz.php?page=MusclesAbdomen'>Muscles of the Anterior Abdominal Wall</a></li>
+                <li><a href='Quiz.php?page=MusclesPelvicFloor'>Muscles of the Pelvic Floor</a></li>
+                <li><a href='Quiz.php?page=MusclesAnteriorThorax'>Muscles of the Anterior Thorax</a></li>
+                <li><a href='Quiz.php?page=MusclesBack'>Back Muscles</a></li>
                 </ul>
             </div>
         </div>
