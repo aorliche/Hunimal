@@ -83,15 +83,19 @@
     <li>
         <ul>
             <li class="tooltip">
-                <a href="/Hunimal/Flashcards.php" data-new>Mult Flashcards</a>
+                <a href="/Hunimal/Poker.php" data-new>Hunimal Poker</a>
+                <span class="tooltiptext">Play Texas Hold-Em using David's hunimal deck</span>
+            </li>
+            <li class="tooltip">
+                <a href="/Hunimal/Flashcards.php">Mult Flashcards</a>
                 <span class="tooltiptext">Create multiplication flashcards</span>
             </li>
             <li class="tooltip">
-                <a href="/NumberWords/" data-new>Number Words</a>
+                <a href="/NumberWords/">Number Words</a>
                 <span class="tooltiptext">Fill out words based on number types</span>
             </li>
             <li class="tooltip">
-                <a href="/Gliders/" data-new>Gliders 3D</a>
+                <a href="/Gliders/">Gliders 3D</a>
                 <span class="tooltiptext">Play a Hunimal-themed 3D space shooting game</span>
             </li>
 			<li class='tooltip'>

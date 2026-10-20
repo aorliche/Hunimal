@@ -37,10 +37,10 @@
 		$zip = $json->purchase_units[0]->shipping->address->postal_code;
 		$country = $json->purchase_units[0]->shipping->address->country_code;
 		
-		if ($country != "US") {
+		/*if ($country != "US") {
 			$error = "We do not deliver outside the United States.";
-			goto error;
-		}
+			goto finish;
+		}*/
 
 		$addrStr = $name."\n".$addr1;
 		if (isset($addr2)) {
