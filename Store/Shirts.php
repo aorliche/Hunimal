@@ -17,30 +17,40 @@
 			<script src="https://www.paypal.com/sdk/js?client-id=Ac2kKDmIdhxeMckOR7-ZQxNbLkvPcNfQK_59t6QYF6Nvv55OxL7DQoZClegXHYRKJB8ceO6vjr7yUYds&currency=USD"></script>
             <p><u>Expect one to two weeks for shipping. We only ship to the United States.</u></p>
             <div id='designs'>
-                <div class='design'>
+                <!--<div class='design'>
                     <h3>Design 1: Pig and Gator Friendship</h3>
                     <a href='image/Design1.png'><img src='image/Design1.png' width='300px' alt='Design1'></a>
                     <p>A pig and gator showing their friendship in front of a random MSP.</p>
-                </div>
+                </div>-->
                 <div class='design'>
-                    <h3>Design 2: David</h3>
+                    <h3>Design 1: David</h3>
                     <a href='image/Design2.png'><img src='image/Design2.png' width='300px' alt='Design2'></a>
                     <p>A photo of David, creator of the Hunimal system.</p>
                 </div>
                 <div class='design'>
-                    <h3>Design 3: Cool Amerindian Design</h3>
+                    <h3>Design 2: Cool Amerindian Design</h3>
                     <a href='image/Design3.png'><img src='image/Design3.png' width='300px' alt='Design3'></a>
                     <p>A cool design inspired by the American Southwest.</p>
                 </div>
-                <div class='design'>
+                <!--<div class='design'>
                     <h3>Design 4: Pig and Gator Black</h3>
                     <a href='image/Design4.png'><img src='image/Design4.png' width='300px' alt='Design4'></a>
                     <p>Black version of design 1.</p>
-                </div>
+                </div>-->
                 <div class='design'>
-                    <h3>Design 5: Colorful Hunimal</h3>
+                    <h3>Design 3: Colorful Hunimal</h3>
                     <a href='image/Design5.png'><img src='image/Design5.png' width='300px' alt='Design5'></a>
                     <p>A cool colorful shirt with a single hunimal number, <span class='hunimal-font'>&#x5500</span> to <span class='hunimal-font'>&#x5599</span>.</p>
+                </div>
+                <div class='design'>
+                    <h3>Design 4: Pig and Crocodile Friendship</h3>
+                    <a href='/image/shirts/Design4a_shop.png'><img src='/image/shirts/Design4a_shop.png' width='300px' alt='Design6'></a>
+                    <p>A pig and crocodile showing their friendship in front of a random MSP.</p>
+                </div>
+                <div class='design'>
+                    <h3>Design 5: Jedi Hit Squad</h3>
+                    <a href='/image/shirts/Design4b_shop.png'><img src='/image/shirts/Design4b_shop.png' width='300px' alt='Design6'></a>
+                    <p>The Jedi hit squad sent to take out the reforming emperor.</p>
                 </div>
                 <!--<div class='design'>
                     <h3>Design 6: Colorful Hunimal Cap (Black)</h3>

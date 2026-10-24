@@ -134,6 +134,16 @@
                 <li><a href='Quiz.php?page=MusclesBack'>Back Muscles</a></li>
                 </ul>
             </div>
+            <div class='category'>
+                <h3>Musclular System 2</h3>
+                <ul>
+                <li><a href='Quiz.php?page=MusclesPectoralGirdle'>Muscles of the Pectoral Girdle</a></li>
+                <li><a href='Quiz.php?page=MusclesHumerusDeep'>Deep Muscles of the Humerus</a></li>
+                <li><a href='Quiz.php?page=MusclesAnteriorForearm'>Muscles of the Anterior Forearm</a></li>
+                <li><a href='Quiz.php?page=MusclesPosteriorForearm'>Muscles of the Posterior Forearm</a></li>
+                <li><a href='Quiz.php?page=MusclesAnteriorHand'>Muscles of the Anterior Hand</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <? include('footer.php'); ?>

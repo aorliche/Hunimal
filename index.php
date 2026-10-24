@@ -17,6 +17,16 @@
             system that I invented.</p>
             <p>Click the links on the left to check out each of these topics!</p>
 			<big><? include 'latest-post.php'; ?></big>
+            <p><strong>October 24, 2026:</strong></p>
+            <p>
+                <a href='/image/shirts/Design4a_shop.png'>
+                    <img src='/image/shirts/Design4a_shop.png' width='300'>
+                </a>
+                <a href='/image/shirts/Design4b_shop.png'>
+                    <img src='/image/shirts/Design4b_shop.png' width='300'>
+                </a>
+            </p>
+            <p>We have two new shirt designs in the store!</p>
             <p><strong>October 20, 2026:</strong></p>
 			<p><a style='font-size: 20px;' href='/Hunimal/Poker.php'>Hunimal Poker!</a> Play a game of Texas Hold-Em using David's Hunimal deck.</p>
 			<p><strong>February 26, 2022:</strong></p>
