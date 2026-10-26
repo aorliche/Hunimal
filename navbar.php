@@ -65,6 +65,10 @@
 		<a href="/knot-mosaic/">Knot Mosaics</a>
 		<span class="tooltiptext">Program for generating semi-random knot mosaics up to 5 crossings</span>
 	</li>
+    <li class='tooltip'>
+        <a href='/rogue/FolioOne.pdf' data-new>The Rogue Jedi</a>
+        <span class='tooltiptext'>A comic fan fiction set in an alternate Star Wars universe</span>
+    </li>
 	<!--
 	<li>
 		<ul>

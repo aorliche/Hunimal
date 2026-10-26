@@ -17,6 +17,14 @@
             system that I invented.</p>
             <p>Click the links on the left to check out each of these topics!</p>
 			<big><? include 'latest-post.php'; ?></big>
+            <p><strong>October 26, 2026:</strong></p>
+            <p>
+                <a href='/rogue/FolioOne.pdf'>
+                    <img src='/rogue/Cover.png' width='300'>
+                </a>
+            </p>
+            <p>Anton has published the first book of his re-imagining of the Star Wars universe,
+            with anthropomorphic animals as the main characters.</p>
             <p><strong>October 24, 2026:</strong></p>
             <p>
                 <a href='/image/shirts/Design4a_shop.png'>
