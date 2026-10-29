@@ -10,7 +10,7 @@
 	<script src="script/humbart.js"></script>
 </head>
 <?php
-    $nperpage = 10;
+    $nperpage = 8;
     $page = $_GET['page'];
     if (!$page) {
         $page = 1;
@@ -37,12 +37,12 @@
     } else {
         echo "<a href='#'>Previous</a>\n";
     }
-    if ($next < count($files)/10) {
+    if ($next < count($files)/$nperpage) {
         echo "<a href='Humbart.php?page=$next'>Next</a>\n";
     }
     echo "</div>\n";
     echo "<div class='gallery'>\n";
-    for ($i = ($page-1)*10; $i < $page*10; $i++) {
+    for ($i = ($page-1)*$nperpage; $i < $page*$nperpage; $i++) {
         echo "<div class='humbart-entry'>\n";
         echo "<img src='./image/humbart/${files[$i]}' class='humbart-img'>\n";
         echo "<p>${files[$i]}</p>\n";

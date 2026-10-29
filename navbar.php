@@ -87,6 +87,10 @@
     <li>
         <ul>
             <li class="tooltip">
+                <a href="/Hunimal/Humbart.php" data-new>Humbart</a>
+                <span class="tooltiptext">View Hunimal art created by fans of Hunimal</span>
+            </li>
+            <li class="tooltip">
                 <a href="/Hunimal/Poker.php" data-new>Hunimal Poker</a>
                 <span class="tooltiptext">Play Texas Hold-Em using David's hunimal deck</span>
             </li>
