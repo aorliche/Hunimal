@@ -17,6 +17,15 @@
             system that I invented.</p>
             <p>Click the links on the left to check out each of these topics!</p>
 			<big><? include 'latest-post.php'; ?></big>
+            <p><strong>October 29, 2026:</strong></p>
+            <p>
+                <a href='/Hunimal/Humbart.php'>
+                    <img src='/Hunimal/image/humbart/Earthworm_Jim_Zote.png' height='300'>
+                </a>
+            </p>
+            <p>We have created a gallery of some of the Humbart fans have created over the years.
+                <a href='/Hunimal/Humbart.php'>Check it out!</a>
+            </p>
             <p><strong>October 26, 2026:</strong></p>
             <p>
                 <a href='/rogue/FolioOne.pdf'>
