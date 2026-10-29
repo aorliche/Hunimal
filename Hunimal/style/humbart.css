@@ -1,0 +1,29 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    align-items: flex-top;
+    flex-wrap: wrap;
+}
+
+.humbart-entry {
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #44a;
+    height: 100%;
+}
+
+.humbart-img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
