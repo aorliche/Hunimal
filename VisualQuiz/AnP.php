@@ -142,6 +142,14 @@
                 <li><a href='Quiz.php?page=MusclesAnteriorForearm'>Muscles of the Anterior Forearm</a></li>
                 <li><a href='Quiz.php?page=MusclesPosteriorForearm'>Muscles of the Posterior Forearm</a></li>
                 <li><a href='Quiz.php?page=MusclesAnteriorHand'>Muscles of the Anterior Hand</a></li>
+                <li><a href='Quiz.php?page=MusclesAnteriorThigh'>Muscles of the Anterior Thigh</a></li>
+                <li><a href='Quiz.php?page=MusclesPosteriorThigh'>Muscles of the Posterior Thigh</a></li>
+                <li><a href='Quiz.php?page=MusclesGlutealRegion'>Muscles of the Gluteal Region</a></li>
+                <li><a href='Quiz.php?page=MusclesAnteriorLeg'>Muscles of the Anterior Leg</a></li>
+                <li><a href='Quiz.php?page=MusclesLateralLeg'>Muscles of the Leg (Lateral View)</a></li>
+                <li><a href='Quiz.php?page=MusclesPosteriorLeg'>Muscles of the Posterior Leg</a></li>
+                <li><a href='Quiz.php?page=MusclesPosteriorLegDeep'>Deep Muscles of the Posterior Leg</a></li>
+                <li>Please contact us (link at the bottom of the page) if you want the intrinsic muscles of the foot</li>
                 </ul>
             </div>
         </div>
