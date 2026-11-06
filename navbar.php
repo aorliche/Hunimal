@@ -136,6 +136,10 @@
 				<span class="tooltiptext">Special glyphs for the Hunimal numbers!</span>
 			</li>
 			<li class="tooltip">
+				<a href="/Hunimal/Consecuprimes.php" data-new>Consecuprimes</a>
+				<span class="tooltiptext">Generate prime numbers from consecutive numbers in different bases.</span>
+			</li>
+			<li class="tooltip">
 				<a href="/Hunimal/SquareNumbers/index.php">Square Numbers</a>
 				<span class="tooltiptext">Patterns in square numbers in different bases.</span>
 			</li>
@@ -153,7 +157,7 @@
     <li>
         <ul>
 			<li class='tooltip'>
-				<a href='/Tessellations/omino-bridge.php' data-new>Omino Bridge</a>
+				<a href='/Tessellations/omino-bridge.php'>Omino Bridge</a>
 				<span class='tooltiptext'>Generate a random tesselation then complete it.</span>
 			</li>
         </ul>
