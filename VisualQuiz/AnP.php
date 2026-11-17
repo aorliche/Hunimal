@@ -12,7 +12,8 @@
     <div id="container">
         <? include('navbar.php'); ?>
         <div id="main">
-            <p>Select an Anatomy and Physiology Visual Quiz</p>
+            <p>Select an Anatomy and Physiology Visual Quiz.</p>
+            <p>All images are taken from Marieb and Hoehn Human Anatomy and Physiology 8th edition, for education purposes only.</p>
             <div class='category'>
                 <h3>Chemistry</h3>
                 <ul>
@@ -149,7 +150,34 @@
                 <li><a href='Quiz.php?page=MusclesLateralLeg'>Muscles of the Leg (Lateral View)</a></li>
                 <li><a href='Quiz.php?page=MusclesPosteriorLeg'>Muscles of the Posterior Leg</a></li>
                 <li><a href='Quiz.php?page=MusclesPosteriorLegDeep'>Deep Muscles of the Posterior Leg</a></li>
-                <li>Please contact us (link at the bottom of the page) if you want the intrinsic muscles of the foot</li>
+                <li>Please contact us if you want the intrinsic muscles of the foot</li>
+                </ul>
+            </div>
+            <div class='category'>
+                <h3>Cardiovascular System (Arteries)</h3>
+                <ul>
+                <li><a href='Quiz.php?page=CVArteriesWholeBodySuperior'>Major Arteries (Superior)</a></li>
+                <li><a href='Quiz.php?page=CVArteriesWholeBodyInferior'>Major Arteries (Inferior)</a></li>
+                <li><a href='Quiz.php?page=CVArteriesHeadNeck'>Arteries of the Head and Neck</a></li>
+                <li><a href='Quiz.php?page=CVArteriesBrain'>Arteries of the Brain</a></li>
+                <li><a href='Quiz.php?page=CVArteriesUpperLimb'>Arteries of the Upper Limb</a></li>
+                <li><a href='Quiz.php?page=CVArteriesCeliacTrunk'>Branches of the Celiac Trunk</a></li>
+                <li><a href='Quiz.php?page=CVArteriesAbdominalAorta'>Branches of the Abdominal Aorta</a></li>
+                <li><a href='Quiz.php?page=CVArteriesSuperiorInferiorMesenteric'>Branches of the Superior and Inferior Mesenteric Arteries</a></li>
+                <li><a href='Quiz.php?page=CVArteriesLowerLimbAnterior'>Arteries of the Anterior Lower Limb</a></li>
+                <li><a href='Quiz.php?page=CVArteriesLowerLimbPosterior'>Arteries of the Posterior Lower Limb</a></li>
+                </ul>
+            </div>
+            <div class='category'>
+                <h3>Cardiovascular System (Veins)</h3>
+                <ul>
+                <li><a href='Quiz.php?page=CVVeinsWholeBodySuperior'>Major Veins (Superior)</a></li>
+                <li><a href='Quiz.php?page=CVVeinsWholeBodyInferior'>Major Veins (Inferior)</a></li>
+                <li><a href='Quiz.php?page=CVVeinsHead1'>Veins of the Head</a></li>
+                <li><a href='Quiz.php?page=CVVeinsHead2'>Cranial Sinuses</a></li>
+                <li><a href='Quiz.php?page=CVVeinsAbdomen1'>Veins of the Abdomen 1</a></li>
+                <li><a href='Quiz.php?page=CVVeinsAbdomen2'>Veins of the Abdomen 2</a></li>
+                <li><a href='Quiz.php?page=CVVeinsLowerLimb'>Veins of the Lower Limb</a></li>
                 </ul>
             </div>
         </div>
