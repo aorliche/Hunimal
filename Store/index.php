@@ -23,7 +23,7 @@
                             <a href='Shirts.php' style='color: white;'>Hunimal Shirts and Hats</a>
                         </div>
                         <div class='price'>
-                            Price: $<span class='hunimal-font'>&#x5535;.&#x5500;</span> per Shirt
+                            Price: $<span class='hunimal-font'>&#x5530;.&#x5500;</span> per Shirt
                             <!--Price: $<span class='hunimal-font'>&#x5542;.&#x5500;</span> per Hat-->
                         </div>
                         <div class='desc'>
@@ -38,7 +38,7 @@
                             <a href='Cards.php' style='color: white;'>Hunimal 107-Card Decks</a>
                         </div>
                         <div class='price'>
-                            Price: $<span class='hunimal-font'>&#x5520;.&#x5500;</span> per Deck
+                            Price: $<span class='hunimal-font'>&#x5515;.&#x5500;</span> per Deck
                         </div>
                         <div class='desc'>
                             Hunimal-themed 107-card decks. Two complete equivalents of a typical 52-card deck with added hunimal numbering.

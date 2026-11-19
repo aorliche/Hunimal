@@ -17,6 +17,15 @@
             system that I invented.</p>
             <p>Click the links on the left to check out each of these topics!</p>
 			<big><? include 'latest-post.php'; ?></big>
+            <p><strong>November 19, 2026:</strong></p>
+            <p>
+                <a href='/Store/'>
+                    <img src='/Store/image/cards-store.png' height='300'>
+                    <img src='/Store/image/Design5.png' height='300'>
+                </a>
+            </p>
+            <p>Special holiday deal: 107-card decks, shirts, hats, and humber grab bags
+            are all $5 off! Visit the <a href='/Store/'>store</a>.</p>
             <p><strong>October 29, 2026:</strong></p>
             <p>
                 <a href='/Hunimal/Humbart.php'>

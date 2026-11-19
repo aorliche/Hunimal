@@ -23,7 +23,7 @@
                     <p>Order a custom hunimal deck with all numbers from zo to hun. Play regular card games with two copies of complete 52-card decks as well as special games with hunimal cards. Full design available <a href='https://www.canva.com/design/DAHCcdyrzPQ/7uWiYXU1HMyUOWkHvY3mAQ/edit?utm_content=DAHCcdyrzPQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>here</a>.</p>
                 </div>
             </div>
-            <p>Cost: <span id='deck-cost'>$<span class='hunimal-font'>&#x5520;</span> (20 USD) per pack + $<span class='hunimal-font'>&#x5510;</span> (10 USD shipping)</span></p>
+            <p>Cost: <span id='deck-cost'>$<span class='hunimal-font'>&#x5515;</span> (15 USD) per pack + $<span class='hunimal-font'>&#x5510;</span> (10 USD shipping)</span></p>
             <p>Number:
             <select id='number'>
                 <option>1</option>
@@ -51,7 +51,7 @@ function cartJson(orderData) {
     const cart = [];
     const numb = $('#number').selectedIndex + 1;
     cart.push(JSON.stringify({item: "107 card deck", numb}));
-    const cost = 20*numb + 10;
+    const cost = 15*numb + 10;
     return JSON.stringify({cart: cart, cost: cost, key: key, orderData: orderData});
 }
 
@@ -61,7 +61,7 @@ paypal.Buttons({
 		return actions.order.create({
 			purchase_units: [{
 				amount: {
-					value: 20*numb + 10
+					value: 15*numb + 10
 				}
 			}]
 		});

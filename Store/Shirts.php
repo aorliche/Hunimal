@@ -58,8 +58,8 @@
                     <p>A black baseball cap with a single hunimal number, <span class='hunimal-font'>&#x5500</span> to <span class='hunimal-font'>&#x5599</span>.</p>
                 </div>-->
             </div>
-            <p>Cost: <span id='shirt-cost'>$<span class='hunimal-font'>&#x5535;</span> (35 USD)</span>
-            <span id='hat-cost' style='display: none;'>$<span class='hunimal-font'>&#x5542;</span> (42 USD)</span><p>
+            <p>Cost: <span id='shirt-cost'>$<span class='hunimal-font'>&#x5530;</span> (30 USD)</span>
+            <span id='hat-cost' style='display: none;'>$<span class='hunimal-font'>&#x5535;</span> (35 USD)</span><p>
             <p>Size: 
                 <select id='size'>
                     <option>S</option>
@@ -135,13 +135,13 @@ function cartJson(orderData) {
     shirt.design = ['1', '2', '3', '4', '5', 'hat'][$('#design').selectedIndex];
     shirt.hunimalNumber = $('#hunimal-number').options[$('#hunimal-number').selectedIndex].value;
     cart.push(JSON.stringify(shirt));
-    const cost = $('#design').selectedIndex == 5 ? 42 : 35;
+    const cost = $('#design').selectedIndex == 5 ? 35 : 30;
     return JSON.stringify({cart: cart, cost: cost, key: key, orderData: orderData});
 }
 
 paypal.Buttons({
 	createOrder: function(data, actions) {
-        const cost = $('#design').selectedIndex == 5 ? 42 : 35;
+        const cost = $('#design').selectedIndex == 5 ? 35 : 30;
 		return actions.order.create({
 			purchase_units: [{
 				amount: {
